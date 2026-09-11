@@ -12,6 +12,7 @@ sensor networks.
 
 - [Official Resources](#official-resources)
   - [Social Media](#social-media)
+- [Open Source client](#open-source-client)
 - [Maps and Diagnostics](#maps-and-diagnostics)
 - [Communities](#communities)
   - [Virtual](#virtual)
@@ -37,6 +38,10 @@ Everything from the official MeshCore project:
 - [YouTube](https://www.youtube.com/@meshcore-official)
 - [YouTube - Andy Kirby](https://www.youtube.com/@andykirby)
 
+## Open Source Client
+- [MeshCore Open](https://github.com/zjs81/meshcore-open)
+- [MeshCore gui](https://github.com/pe1hvh/meshcore-gui)
+  
 ## Maps and Diagnostics
 
 Tools for the every-user to see whats going on in general.
