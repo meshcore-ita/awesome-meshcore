@@ -13,8 +13,8 @@ sensor networks.
 - [Official Resources](#official-resources)
   - [Social Media](#social-media)
 - [Client](#client)
-  - [Open Source](#open-source-client)
-  - [Closed Source](#closed-source-client)
+  - [Open Source](#open-source)
+  - [Closed Source](#closed-source)
 - [Maps and Diagnostics](#maps-and-diagnostics)
 - [Communities](#communities)
   - [Virtual](#virtual)
@@ -48,6 +48,7 @@ Everything from the official MeshCore project:
 - [MeshCore gui](https://github.com/pe1hvh/meshcore-gui)
 
 ### Closed Source
+
 - [Official app](https://files.liamcottle.net/MeshCore/) also on google play, app store, etc 
 - [KIEKR](https://kiekr.app/)
 
