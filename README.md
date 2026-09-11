@@ -43,6 +43,7 @@ Tools for the every-user to see whats going on in general.
 
 - [MeshCore Map](https://map.meshcore.dev/) - static user uploads
 - [m3sh.uk Map](https://m3sh.uk/contacts/) - UK network as seen from Oxfordshire
+- [EU Meshcore Analyzer](https://meshcore-analyzer.eu/) - live visual map of European MeshCore LoRa network traffic. 
 
 ## Communities
 
