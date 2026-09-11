@@ -15,6 +15,7 @@ sensor networks.
 - [Maps and Diagnostics](#maps-and-diagnostics)
 - [Communities](#communities)
   - [Virtual](#virtual)
+  - [Italy](#italy)
   - [Portugal](#portugal)
   - [Switzerland](#switzerland)
   - [United Kingdom](#united-kingdom)
@@ -48,6 +49,11 @@ Tools for the every-user to see whats going on in general.
 ### Virtual
 
 - [r/MeshCore](https://www.reddit.com/r/meshcore/)
+
+### Italy
+
+- [MeshCore ITA](https://meshcore-ita.github.io/) - Italian-language documentation: setup guide, the shared Italian radio preset, hardware, CLI reference, troubleshooting, FAQ and glossary
+- [MeshCore ITA Telegram group](https://t.me/meshcore_ita) - public group, per-region topics
 
 ### Portugal
 
