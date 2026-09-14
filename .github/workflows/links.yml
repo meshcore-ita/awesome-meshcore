@@ -1,0 +1,23 @@
+name: Dead links
+
+on:
+  push:
+    paths: ['**.md', '.github/workflows/links.yml', 'lychee.toml']
+  pull_request:
+    paths: ['**.md', '.github/workflows/links.yml', 'lychee.toml']
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml '**/*.md'
+          fail: true

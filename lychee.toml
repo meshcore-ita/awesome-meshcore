@@ -1,0 +1,18 @@
+# Config for lycheeverse/lychee link checker.
+max_concurrency = 8
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+no_progress = true
+user_agent = "Mozilla/5.0 (compatible; lychee link checker)"
+
+# Bot protection (Cloudflare, Reddit, Play Store, GitHub rate limits) answers
+# real requests with these codes; treat them as reachable.
+accept = ["200..=206", "403", "429", "503"]
+
+exclude = [
+  # Login walls / heavy JS, cannot be validated headlessly.
+  "^https://www\\.facebook\\.com",
+  "^https://discord\\.gg",
+  "^https://t\\.me",
+]
