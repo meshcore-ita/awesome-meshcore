@@ -185,6 +185,7 @@ Tools for the every-user to see whats going on in general.
 ## Guides and Learning
 
 - [Kev's Robots MeshCore course](https://www.kevsrobots.com/learn/meshcore/) - structured tutorial series from basics to flashing
+- [MeshCore Ninja](https://meshcore.ninja/) - open catalog of regional networks, devices, firmwares and software
 - [Andy Kirby on YouTube](https://www.youtube.com/@andykirby) - hardware reviews, repeater builds and firmware walkthroughs
 - [MeshCore.co.uk video collection](https://meshcore.co.uk/videos.html) - curated community videos
 - [MeshCore Europe getting started](https://meshcoreeurope.org/en/get-started/) - multilingual introduction
