@@ -19,7 +19,10 @@ sensor networks.
 - [Integrations and Bots](#integrations-and-bots)
 - [Self-Hosted Dashboards](#self-hosted-dashboards)
 - [Packet Analysis](#packet-analysis)
+- [Utilities](#utilities)
 - [Firmware and Flashing](#firmware-and-flashing)
+  - [Forks and Custom Firmware](#forks-and-custom-firmware)
+  - [Flashing and Updating](#flashing-and-updating)
 - [Maps and Diagnostics](#maps-and-diagnostics)
   - [Maps](#maps)
   - [Diagnostics and Dashboards](#diagnostics-and-dashboards)
@@ -31,20 +34,28 @@ sensor networks.
   - [Austria](#austria)
   - [Belgium](#belgium)
   - [Brazil](#brazil)
+  - [Bulgaria](#bulgaria)
   - [Canada](#canada)
   - [Czech Republic](#czech-republic)
   - [Europe](#europe)
+  - [Finland](#finland)
   - [France](#france)
   - [Germany](#germany)
+  - [Hungary](#hungary)
   - [Ireland](#ireland)
   - [Italy](#italy)
+  - [Lithuania](#lithuania)
   - [Netherlands](#netherlands)
   - [New Zealand](#new-zealand)
+  - [Norway](#norway)
   - [Poland](#poland)
   - [Portugal](#portugal)
+  - [Romania](#romania)
+  - [Slovakia](#slovakia)
   - [Spain](#spain)
   - [Sweden](#sweden)
   - [Switzerland](#switzerland)
+  - [Ukraine](#ukraine)
   - [United Kingdom](#united-kingdom)
   - [United States](#united-states)
 
@@ -96,6 +107,17 @@ Everything from the official MeshCore project:
 - [Remote Terminal for MeshCore](https://github.com/MichTronics/Remote-Terminal-for-MeshCore) - remote terminal for repeaters with packet capture and MQTT
 - [Meshcore-Wardrive-Android](https://github.com/mintylinux/Meshcore-Wardrive-Android) - Flutter wardriving app for mapping coverage
 - [meshcore-web (Vue)](https://github.com/liamcottle/meshcore-web) - early Vue web client, superseded by the official app
+- [MeshChaTUI](https://github.com/g-d-j-evans/MeschaTUI) - Textual terminal client for Linux with delivery confirmation over serial or BLE
+- [MeshCore Insights](https://github.com/BomBefok/MeshcoreInsights) - desktop dashboard with live maps, telemetry analysis and remote node management
+- [MeshCore SAR](https://github.com/dz0ny/meshcore-sar) - offline-first search and rescue app with low-bandwidth voice, images and team tracking
+- [MeshCorium](https://github.com/PEG4TRON/MeshCorium) - self-hosted client with a local web interface and hybrid contact system
+- [Mycelium](https://github.com/WattleFoxxo/Mycelium) - browser client for messaging over serial or BLE
+- [PicoMeshCore](https://github.com/Vigoleis912/PicoMeshCore) - MMBasic companion client for the Raspberry Pi Pico over UART
+- [Sestriere](https://github.com/atomozero/Sestriere) - native Haiku OS client with maps, packet analysis and repeater administration
+- [SigurdOS Client](https://github.com/hermes-gadget/SigurdOS-client) - Flutter client forked from MeshCore Open with a pixel-art theme
+- [MeshCore64](https://github.com/swannman/meshcore64) - Commodore 64 chat client over a SwiftLink-compatible serial cartridge
+- [Roadstr](https://github.com/jooray/roadstr) - road-event reporting over signed Nostr events with MeshCore as transport
+- [Yours](https://github.com/STCisGOOD/yours-x-lunarcore) - Android encrypted messaging client for LunarCore firmware with onion routing experiments
 
 ### Closed Source
 
@@ -116,6 +138,13 @@ Everything from the official MeshCore project:
 - [meshcore-rs](https://github.com/andrewdavidmackenzie/meshcore-rs) - Rust port of the Python library
 - [meshcore_upy](https://github.com/fdlamotte/meshcore_upy) - MicroPython bindings
 - [meshcore-packets-java](https://github.com/msmuenchen/meshcore-packets-java) - Java packet encoder and decoder
+- [meshcore-go (meshcore-cz)](https://github.com/meshcore-cz/meshcore-go) - transport-independent Go SDK over serial, BLE and TCP
+- [meshpkt](https://github.com/meshcore-cz/meshpkt) - pure Go packet codec with identity cryptography and TypeScript WASM bindings
+- [MeshCoreCompanion](https://github.com/SH3D/meshcore_c) - portable C99 companion protocol library with an Arduino C++ wrapper
+- [MeshCoreKmp](https://github.com/Wavesonics/MeshCoreKmp) - Kotlin Multiplatform library for BLE companion nodes
+- [meshcore_client](https://github.com/dz0ny/meshcore_client) - Flutter and Dart implementation of the BLE companion protocol
+- [meshcore-pi](https://github.com/brianwiddas/meshcore-pi) - Python protocol implementation for Raspberry Pi and other Linux hosts
+- [openHop Core](https://github.com/openhop-dev/openhop_core) - Python reimplementation of the protocol and routing stack, with direct SX1262 support
 
 ## Integrations and Bots
 
@@ -126,12 +155,36 @@ Everything from the official MeshCore project:
 - [meshcore-bot](https://github.com/agessaman/meshcore-bot) - Python bot with Discord and Telegram bridging plus web viewer
 - [meshcore-bot (Go)](https://github.com/meshcore-go/meshcore-bot) - lightweight bot in Go
 - [meshcore-discord-relay](https://github.com/yellowcooln/meshcore-discord-relay) - relays MQTT traffic into Discord channels
+- [MeshCore UI for Home Assistant](https://github.com/Ratty7198/MeshCore-HA-UI) - sidebar dashboard on top of meshcore-ha with chat, contacts and maps
+- [ESPHome MeshCore](https://github.com/netmilk/esphome-meshcore) - ESPHome component turning XIAO nRF52840 boards into managed MeshCore sensor nodes
+- [Domoticz MeshCore Plugin](https://github.com/galadril/Domoticz-MeshCore-Plugin) - exposes nodes, telemetry and messaging as native Domoticz devices
+- [MeshCore SAME EAS Alerter](https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter) - forwards SAME emergency alert broadcasts onto the mesh
+- [MeshRes](https://github.com/bryantkelley/MeshRes) - streams mesh messages into the Resonite social VR platform
+- [MeshCore Email Gateway](https://github.com/MGJ520/MeshCore-Email-Gateway) - bidirectional SMTP/IMAP gateway with a management API
+- [Meshpoint](https://github.com/KMX415/meshpoint) - Raspberry Pi base station using an SX1302/SX1303 LoRa concentrator
+- [openHop Repeater](https://github.com/openhop-dev/openhop_repeater) - Python repeater daemon for Pi-class and embedded Linux hardware
+- [meshcoretomqtt](https://github.com/Cisien/meshcoretomqtt) - publishes debug and packet capture output to MQTT
+- [Spectra](https://forge.hackers.town/Wrewdison/Spectra) - Rust bridge from MeshCore or Meshtastic radios to the Veilid DHT
+- [MeshCore Discord Bridge](https://github.com/Hude06/MeshCoreDiscordBridge) - bidirectional Discord bridge with multi-channel routing and flood protection
+- [Cyclenerd MeshCore Bot](https://github.com/Cyclenerd/meshcore-bot) - Node.js command bot with scheduled repeater status collection
+- [MeshCore BBS](https://github.com/carsten-walther/MeshCore-BBS) - store-and-forward bulletin board running on a companion radio
+- [Mesh-Citadel BBS](https://github.com/taedryn/mesh-citadel) - Citadel-style BBS reachable over the mesh
+- [PokeMesh](https://github.com/IdreesInc/PokeMesh) - collaborative Pokemon FireRed played through channel commands
 
 ## Self-Hosted Dashboards
 
 - [mc-webui](https://github.com/MarekWo/mc-webui) - Flask web client with SQLite storage and Docker deployment
 - [meshcore-hub](https://github.com/ipnet-mesh/meshcore-hub) - collector, REST API and dashboard backed by PostgreSQL
 - [MeshMonitor](https://meshmonitor.org/) - self-hosted multi-protocol dashboard with maps, telemetry and automation
+- [CoreScope (Kpa-clawbot)](https://github.com/Kpa-clawbot/CoreScope) - packet analyzer with MQTT ingest, maps, channel chat and per-node analytics
+- [MeshCore Beacon](https://github.com/MeshCore-Beacon/beacon-server) - Go collector with PostgreSQL storage, WebSocket streaming and a React frontend
+- [PotatoMesh](https://github.com/l5yth/potato-mesh) - federated dashboard for local communities with remote ingestors and a public API
+- [MeshExplorer](https://github.com/ajvpot/meshexplorer) - real-time map, chat client and packet analysis
+- [MeshCore MQTT Live Map](https://github.com/yellowcooln/meshcore-mqtt-live-map) - real-time traffic map with coverage, heat and line-of-sight views
+- [LiteScope](https://github.com/RikoDEV/litescope) - lightweight MQTT dashboard for node and telemetry monitoring
+- [pyMC Console](https://github.com/Treehouse-00/pymc_console-dist) - web dashboard for openHop Repeater with RF statistics and terrain mapping
+- [OverMesh](https://github.com/Slofi/overmesh) - self-hosted dashboard for MeshCore and Meshtastic
+- [Remote Terminal for MeshCore (jkingsman)](https://github.com/jkingsman/Remote-Terminal-for-MeshCore) - power-user terminal with server-side packet capture, bots and MQTT integrations
 
 ## Packet Analysis
 
@@ -143,11 +196,70 @@ Everything from the official MeshCore project:
 - [meshcore-packet-capture](https://github.com/agessaman/meshcore-packet-capture) - capture packets from a companion radio and publish to MQTT
 - [meshcore-packet-knife](https://github.com/jkingsman/meshcore-packet-knife) - packet inspection and WebGPU hashtag channel key bruteforcing
 - [meshcore-sim](https://github.com/dpup/meshcore-sim) - deterministic network simulator for testing without radios
+- [MeshCore Packet Tool](https://github.com/meshcore-cz/meshcore-packet-tool) - browser workbench for inspecting, decoding and crafting packets
+- [MeshCore Signal Tester](https://github.com/kybl/meshcore-signal-tester) - web and Android RSSI/SNR analysis with GPS-tagged 3D mapping
+- [Lora Wideband Decoder](https://github.com/persistentcache/Lora-Wideband-Decoder) - SoapySDR wideband intercept receiver for LoRa traffic
+- [MeshCute](https://github.com/MadScientistCH/meshcute) - portable BLE, Wi-Fi and receive-only LoRa scanner for the M5Stack Cardputer Adv
+- [MCSim](https://github.com/Brent-A/mcsim) - deterministic simulation framework for firmware testing
+- [meshcore_sim](https://github.com/matthewdgreen/meshcore_sim) - discrete-event simulator running real firmware routing logic
+
+## Utilities
+
+- [MeshCore Utils](https://github.com/samschlegel/meshcore-utils) - Rust vanity Ed25519 key generator with CUDA or Metal acceleration
+- [MeshCore Web Key Generator](https://github.com/agessaman/meshcore-web-keygen) - browser-only Ed25519 key generator with custom public-key prefixes
+- [MeshCore Proxy](https://github.com/rgregg/meshcore-proxy) - TCP proxy exposing a locally connected companion radio to remote clients
+- [Map Tiles Downloader](https://github.com/tekk/map-tiles-downloader) - terminal utility for downloading offline OpenStreetMap tiles for mesh apps
 
 ## Firmware and Flashing
 
+### Forks and Custom Firmware
+
+- [ZephCore](https://github.com/liquidraver/ZephCore) - ground-up port of MeshCore from Arduino to the Zephyr RTOS
+- [chiyocore](https://github.com/kore-signet/chiyocore) - experimental Rust reimplementation for ESP32 with generated board builds
+- [LunarCore](https://github.com/STCisGOOD/lunarcore) - multi-protocol ESP32-S3 firmware combining MeshCore, Meshtastic and RNode/KISS
+- [MeshCoreNG](https://github.com/MichTronics/MeshCoreNG) - Dutch fork focused on smarter repeaters for larger, busier meshes
+- [MeshCoreTel](https://github.com/VBart/MeshCoreTel-firmware) - repeater fork of EastMesh with WiFi, HTTPS API, web panel and MQTT
+- [EastMesh](https://github.com/xJARiD/MeshCore-EastMesh) - MQTT repeater and WiFi companion builds with prebuilt releases
+- [EasySkyMesh](https://github.com/IoTThinks/EasySkyMesh) - power-saving fork for ultra-low-power repeater and sensor deployments
+- [MeshCore Low-Power](https://github.com/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4) - deep-sleep Heltec V3/V4 builds with BLE, USB and WiFi in one image
+- [Meshcomod](https://github.com/ALLFATHER-BV/meshcomod) - companion fork exposing USB, Bluetooth and TCP connectivity simultaneously
+- [Offband Mesh](https://github.com/OffbandMesh/meshcore-firmware) - cross-role firmware enhancements and optimisation
+- [CubeCell MeshCore](https://github.com/atomozero/CubeCellMeshCore) - minimal repeater firmware for Heltec CubeCell boards
+- [MeshCore T-Beam 1W](https://github.com/mintylinux/Meshcore-T-beam-1W-Firmware) - prebuilt builds for the LilyGo T-Beam 1 Watt
+- [InkCore](https://codeberg.org/todd-herbert/InkCore) - BLE companion firmware for small e-paper devices with configurable applets
+- [MeshCore PaperUI](https://github.com/dz0ny/meshcore-paperui) - e-paper handheld firmware with standalone messaging, GPS and maps
+- [MeshCore mishmesh](https://github.com/burakcan/MeshCore-mishmesh) - on-device UI making a companion radio usable without a paired phone
+- [MeshCoreTerm](https://github.com/dabeani/meshcoreterm) - retro-themed companion firmware with on-screen keyboard and hardware navigation
+- [MeshcoreGRID](https://github.com/Quark1980/MeshcoreGRID) - touch-first handheld firmware with a standalone GRID interface
+- [MeshPunk](https://github.com/PhilMo6/meshpunk) - LVGL and Lua handheld firmware for the LilyGo T-Deck
+- [Wadamesh](https://github.com/ALLFATHER-BV/wadamesh) - touch-UI LVGL firmware for T-Deck and Heltec V4 TFT
+- [Saitama](https://github.com/868meshbot/Saitama) - standalone firmware for the LilyGo T-Deck and T-Deck Plus
+- [Aurora](https://forge.hackers.town/Wrewdison/Aurora) - standalone T-Deck firmware with contact management and BLE companion support
+- [BlackJackOS](https://github.com/Robert-Proaps/BlackJackOS-BJOS-) - portable T-Deck toolbox with an application-oriented standalone interface
+- [SigurdOS T-Deck](https://github.com/hermes-gadget/SigurdOS-tdeck) - launcher-style touch UI for the T-Deck with maps and over-the-air updates
+- [MCLite](https://github.com/laserir/MCLite) - lightweight communicator firmware for the T-Deck Plus and T-Watch Ultra
+- [Fennek](https://github.com/danst0/fennek) - T-Deck Pro firmware adding music, audiobooks and eBooks alongside mesh chat
+- [FieldMesh](https://github.com/TogeriX-hub/FieldMesh) - fork optimised for festivals, hiking and off-grid events
+- [Meck](https://github.com/pelgraine/Meck) - BLE and WiFi companion fork for T-Deck Pro, T-Deck Max and T5 E-Paper S3 Pro
+- [Meck-P4](https://github.com/pelgraine/Meck-P4) - port of Meck to the ESP32-P4 based LilyGo T-Display P4
+- [MeshCore Cardputer-ADV](https://github.com/MultiMote/meshcore-cardputer-adv) - fork for the M5Stack Cardputer Adv with the Cap LoRa-1262 module
+- [MeshCore Cardputer ADV (Stachugit)](https://github.com/Stachugit/MeshCore-Cardputer-ADV) - standalone TFT and keyboard interface for the Cardputer ADV
+- [MeshCore Cardputer ADV (sosprz)](https://github.com/sosprz/meshcore-cardputer-adv) - flashable ESP32-S3 UI images for the Cardputer ADV
+- [MeshCore Wio Tracker L1 Pro (sosprz)](https://github.com/sosprz/Meshcore-Wio-Tracker-L1-Pro) - on-device companion UI for the Seeed Wio Tracker L1 Pro
+- [TapTap Firmware](https://github.com/mtoolstec/TapTapFW) - tracker firmware with canned messages, Morse entry and audible alerts
+- [Trail Mate](https://github.com/vicliu624/trail-mate) - offline-first navigation handheld firmware with native MeshCore packet paths
 - [MeshCore-Solo](https://github.com/MarekZegare4/MeshCore-Solo) - companion firmware fork adding offline GPS navigation and GPX export
+
+### Flashing and Updating
+
 - [MeshCore-OTA-Flasher](https://github.com/Dreikor17/MeshCore-OTA-Flasher) - Windows tool for nRF52840 firmware updates over Bluetooth LE
+- [MeshForge](https://github.com/MeshEnvy/mesh-forge) - cloud firmware builder and web flasher for LoRa mesh devices
+- [MeshFirmware](https://github.com/mikecarper/meshfirmware) - interactive Windows and Linux scripts for selecting, flashing and compiling releases
+- [XIAO nRF52 Updater](https://github.com/recrof/xiao_nrf52_updater) - updater firmware that flashes nearby nRF52 nodes over Bluetooth DFU
+- [Python Nordic Legacy DFU Tool](https://github.com/recrof/nrf_dfu_py) - cross-platform nRF51/nRF52 Bluetooth DFU tool with GUI and CLI
+- [MeshCore Drone Updater](https://github.com/lucidnx/meshcore-drone-updater) - Raspberry Pi service for drive-by or drone-assisted DFU updates of unreachable nodes
+- [Mesh Loader](https://github.com/eliahreeves/mesh-loader) - dual-boot loader keeping MeshCore and Meshtastic in separate ESP32 partitions
+- [Heltec V4.2 Multi-Boot](https://github.com/Finmacjones/HeltecV4.2MultiBoot) - boot selector that switches between MeshCore, Meshtastic and RNode images
 
 ## Maps and Diagnostics
 
@@ -210,6 +322,7 @@ Tools for the every-user to see whats going on in general.
 - [EastMesh Australia](https://eastmesh.au/) - eastern Australia community
 - [MeshSydney](https://meshsydney.com/) - Sydney configuration and coordination
 - [Perth MeshCore](https://perth.meshcore.au/) - Western Australia network
+- [NSW Mesh](https://nswmesh.au/) - Sydney and New South Wales network with a community knowledge base
 
 ### Austria
 
@@ -227,9 +340,16 @@ Tools for the every-user to see whats going on in general.
 - [Mesh Sorocaba](https://www.meshsorocaba.org/) - Portuguese-language guides and community
 - [MeshCore Brasil Telegram group](https://t.me/meshcorebrasil)
 
+### Bulgaria
+
+- [MeshCore Bulgaria](https://www.meshcore.bg/) - Bulgarian community with map, presets and Telegram group
+
 ### Canada
 
 - [MeshCore Canada](https://meshcore.ca/) - national site with provincial communities
+- [CascadiaMesh](https://cascadiamesh.org/) - Pacific Northwest network spanning British Columbia, Washington and Oregon
+- [Salish Mesh](https://salishmesh.net/) - Salish Sea region of southwest British Columbia
+- [Montreal Mesh](https://www.montrealmesh.ca/en/) - Montreal area MeshCore and Meshtastic community
 
 ### Czech Republic
 
@@ -239,10 +359,15 @@ Tools for the every-user to see whats going on in general.
 
 - [MeshCore Europe](https://meshcoreeurope.org/) - multilingual umbrella site with community directory, guides and maps
 
+### Finland
+
+- [Mesh Pirkanmaa](https://meshpirkanmaa.org/) - Tampere and Pirkanmaa region community
+
 ### France
 
 - [MeshCore France](https://www.meshcore.fr/) - French network coordination
 - [LoraMesh France](https://loramesh.fr/) - French community with regional coverage
+- [MeshCore Paris](https://meshcore.paris/) - Paris and Greater Paris region network
 
 ### Germany
 
@@ -251,15 +376,31 @@ Tools for the every-user to see whats going on in general.
 - [IsarMesh](https://isarmesh.de/) - Bavarian community forum
 - [MeshMitte](https://msh3.de/) - central Germany community
 - [MeshCore DE Telegram group](https://t.me/meshcorede)
+- [MeshCore Deutschland wiki](https://meshcore-de.fyi/) - German-language wiki hub with setup guides and regional group directory
+- [Mesh Dresden](https://meshdresden.eu/) - Dresden and wider Saxony community
+- [Mesh Rheinland](https://www.meshrheinland.de/) - Rheinland and western Germany community
+- [Münsterland Mesh](https://mcml.info/) - Münsterland region of North Rhine-Westphalia
+- [SaarMesh](https://saarmesh.de/) - Saarland regional network
+- [MeshCore Essen-Kettwig](https://jonathansalim.de/) - public network around Essen-Kettwig in the Ruhr area
+
+### Hungary
+
+- [MeshCore Hungary](https://mc868.hu/) - Hungarian community on 868 MHz with map and Telegram group
 
 ### Ireland
 
 - [LoRa Project Ireland](https://loraproject.ie/) - island of Ireland off-grid messaging community
+- [Mayo Mesh](https://mayomesh.net/#/) - County Mayo mesh radio user group
 
 ### Italy
 
 - [MeshCore ITA](https://meshcore-ita.github.io/) - Italian-language documentation: setup guide, the shared Italian radio preset, hardware, CLI reference, troubleshooting, FAQ and glossary
 - [MeshCore ITA Telegram group](https://t.me/meshcore_ita) - public group, per-region topics
+- [MeshCore Italia](https://www.meshcoreitalia.it) - nationwide Italian mesh on the EU/UK narrow preset, with map and Telegram group
+
+### Lithuania
+
+- [Atviras Tinklas](https://atvirastinklas.lt) - Lithuanian community with a CoreScope instance and Telegram group
 
 ### Netherlands
 
@@ -267,24 +408,39 @@ Tools for the every-user to see whats going on in general.
 - [LocalMesh Nederland](https://www.localmesh.nl/) - Dutch emergency network with setup guides
 - [MeshCore Forum NL](https://forum.meshcore-net.nl/) - Dutch-language forum
 - [MeshWiki NL](https://meshwiki.nl/) - collaborative Dutch documentation wiki
+- [Dutch MeshCore](https://dutchmeshcore.nl/) - Dutch node directory and radio preset reference
 
 ### New Zealand
 
 - [Meshed](https://meshed.kiwi/) - New Zealand community network
 
+### Norway
+
+- [MeshWiki.no](https://meshwiki.no/) - Norwegian documentation hub and preset reference
+
 ### Poland
 
 - [MeshCore Polska](https://mapa.meshcorepolska.org/) - Polish network map and coordination
 - [MeshGo](https://meshgo.pl/) - Polish community hub
+- [LoRa MeshCore Polska](https://lorameshcore.pl/) - nationwide Polish off-grid network on the EU/UK narrow preset
 
 ### Portugal
 
 - [MeshCore Portugal](https://meshcore.pt/)
 
+### Romania
+
+- [Brașov Mesh](https://brasovmesh.com/) - Brașov network on the EU/UK narrow preset
+
+### Slovakia
+
+- [MeshCore Slovensko](https://mesh.om3kff.sk/) - Slovak national mesh with map and Discord
+
 ### Spain
 
 - [RegionMesh España](https://www.regionmesh.com/es/) - Spanish-language community hub and guides
 - [NomadMesh](https://nomadmesh.org/) - Alpujarra region community network
+- [MeshCore Catalunya](https://docs.livemap-meshcorecat.com/) - Catalonia community with live map and documentation
 
 ### Sweden
 
@@ -294,6 +450,10 @@ Tools for the every-user to see whats going on in general.
 
 - [MeshCore Switzerland](https://www.meshcore.ch/)
 
+### Ukraine
+
+- [MeshCore Ukraine](https://meshcore-ua.net/) - volunteer-run public mesh for resilient communication across Ukraine
+
 ### United Kingdom
 
 - [MeshCore.co.uk](https://meshcore.co.uk/) - UK community hub, MeshOS apps, device configurator and store (third-party, not the upstream project)
@@ -302,6 +462,7 @@ Tools for the every-user to see whats going on in general.
 - [MeshCore Wales](https://meshcore.wales/) - Welsh regional settings and coordination
 - [NorthMesh](https://northmesh.co.uk/) - northern England community network
 - [ScotMesh](https://scotmesh.mm7roq.compute.oarc.uk/) - Scottish community tools
+- [IPNet](https://ipnt.uk/) - Ipswich hub with CoreScope dashboards and MQTT services
 
 ### United States
 
@@ -316,3 +477,25 @@ Tools for the every-user to see whats going on in general.
 - [Austin Mesh](https://www.austinmesh.org/) - Austin, Texas community
 - [Spokane Mesh](https://www.spokanemesh.net/) - Spokane regional network
 - [TennMesh](https://live.tennmesh.com/) - Tennessee network and live monitor
+- [Puget Mesh](https://pugetmesh.org/) - Puget Sound region off-grid communication networks
+- [Inland NW Mesh](https://inlandnwmesh.org/) - Spokane, Coeur d'Alene, the Palouse and Lewiston/Clarkston
+- [Southern California MeshCore](https://socalmesh.org/) - Los Angeles area community with a public CoreScope instance
+- [West Coast Mesh](https://www.wcmesh.com/) - West Coast community hub and coordination
+- [Idaho Mesh](https://idahomesh.org) - Idaho network centred on the Treasure Valley
+- [MSP Mesh](https://mspmesh.org/) - Minneapolis-Saint Paul and Greater Minnesota group
+- [Madison Mesh](https://madmesh.net/) - community-owned network in Madison, Wisconsin
+- [Chicagoland Mesh](https://chicagolandmesh.org/) - Chicago-area MeshCore, Meshtastic and Reticulum community
+- [Nebraska Mesh](https://www.nebraskamesh.net/) - statewide Nebraska network
+- [MeshTexas](https://meshtexas.net/) - statewide Texas network with a shared MQTT broker
+- [MeshCore TX](https://meshcoretx.net/) - Texas radio preset and repeater naming standard
+- [NTX Mesh](https://ntxmesh.com/) - Dallas-Fort Worth and greater North Texas
+- [Gulf Coast Mesh](https://gulfcoastmesh.org) - Louisiana and US Gulf Coast network
+- [Florida Mesh](https://areyoumeshingwith.us/) - Florida-wide network run by amateur radio operators
+- [RDUMesh](https://rdumesh.org/) - Raleigh, Durham and Chapel Hill network
+- [New England Mesh](https://nhmesh.com/) - New England-wide community across CT, MA, NH and ME
+- [CT Mesh](https://ctmesh.org/) - Connecticut mesh technologies user group
+- [Pioneer Valley Mesh](https://pvmesh.org/) - Pioneer Valley of western Massachusetts
+- [Lehigh Valley Mesh](https://lvmesh.com/) - Lehigh Valley and eastern Pennsylvania
+- [Upstate Mesh](https://www.upst8me.sh/) - New York Capital District community
+- [STMesh](https://www.stmesh.net/) - New York Southern Tier networks
+- [WNY MeshCore](https://wnymeshcore.org/) - Western New York communication backbone
