@@ -296,6 +296,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### Flashing and Updating
 
+- [Drone MeshCore Updater](https://github.com/recrof/drone_meshcore_updater) - Zephyr firmware for Seeed XIAO boards that carries firmware bundles to unreachable repeaters by drone or on foot and flashes them over BLE DFU, with a PWA web client.
 - [Heltec V4.2 Multi-Boot](https://github.com/Finmacjones/HeltecV4.2MultiBoot) - Boot selector that switches between MeshCore, Meshtastic and RNode images.
 - [Mesh America Device Configurator](https://meshamerica.com/device-configurator/) - Browser flasher and configurator over Web Serial.
 - [Mesh Loader](https://github.com/eliahreeves/mesh-loader) - Dual-boot loader keeping MeshCore and Meshtastic in separate ESP32 partitions.
