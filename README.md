@@ -269,12 +269,13 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [InkCore](https://codeberg.org/todd-herbert/InkCore) - BLE companion firmware for small e-paper devices with configurable applets.
 - [LunarCore](https://github.com/STCisGOOD/lunarcore) - Multi-protocol ESP32-S3 firmware combining MeshCore, Meshtastic and RNode/KISS.
 - [MCLite](https://github.com/laserir/MCLite) - Lightweight communicator firmware for the T-Deck Plus and T-Watch Ultra.
-- [Meck-P4](https://github.com/pelgraine/Meck-P4) - Port of Meck to the ESP32-P4 based LilyGo T-Display P4.
 - [Meck](https://github.com/pelgraine/Meck) - BLE and WiFi companion fork for T-Deck Pro, T-Deck Max and T5 E-Paper S3 Pro.
+- [Meck-P4](https://github.com/pelgraine/Meck-P4) - Port of Meck to the ESP32-P4 based LilyGo T-Display P4.
 - [Meshcomod](https://github.com/ALLFATHER-BV/meshcomod) - Companion fork exposing USB, Bluetooth and TCP connectivity simultaneously.
 - [MeshCore Cardputer ADV (sosprz)](https://github.com/sosprz/meshcore-cardputer-adv) - Flashable ESP32-S3 UI images for the Cardputer ADV.
 - [MeshCore Cardputer ADV (Stachugit)](https://github.com/Stachugit/MeshCore-Cardputer-ADV) - Standalone TFT and keyboard interface for the Cardputer ADV.
 - [MeshCore Cardputer-ADV](https://github.com/MultiMote/meshcore-cardputer-adv) - Fork for the M5Stack Cardputer Adv with the Cap LoRa-1262 module.
+- [MeshCore Filter Firmware](https://github.com/jhuebert/MeshCore) - Repeater fork with remotely configurable drop and forward rules, per-rule throttling and advert rate limiting.
 - [MeshCore Low-Power](https://github.com/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4) - Deep-sleep Heltec V3/V4 builds with BLE, USB and WiFi in one image.
 - [MeshCore mishmesh](https://github.com/burakcan/MeshCore-mishmesh) - On-device UI making a companion radio usable without a paired phone.
 - [MeshCore PaperUI](https://github.com/dz0ny/meshcore-paperui) - E-paper handheld firmware with standalone messaging, GPS and maps.
@@ -384,8 +385,10 @@ Tools to see what is happening on the mesh.
 - [EU Meshcore Analyzer](https://meshcore-analyzer.eu/) - Live visual map of European MeshCore LoRa network traffic.
 - [KernWi-Fi live telemetry](https://meshcore.kernwifi.com.au/live) - South Australian live activity feed.
 - [MeshCore Analyzer (letsmesh)](https://analyzer.letsmesh.net/) - Node connectivity, packet analysis and mesh health metrics.
+- [MeshCore Observers](https://meshcore.observer) - Directory of public collectors, reporters and analyzers.
 - [MeshCore Tools](https://meshcore.envoyage.io/) - Repeater configurator and region code lookup helpers.
 - [MeshCore Wall of Shame](https://advertrank.com/) - Tongue-in-cheek ranking of the nodes flooding the mesh with adverts.
+- [Meshcoretel.io](https://meshcoretel.io/) - Public telemetry with a live packet map, propagation trees, link load and wardrive coverage.
 - [MeshRank](https://meshrank.net/) - Leaderboard and analytics for repeaters and routes, mainly in the UK.
 - [TennMesh Live](https://live.tennmesh.com/) - Tennessee telemetry with RF link analysis and routing loop detection.
 
@@ -449,6 +452,7 @@ Tools to see what is happening on the mesh.
 
 - [LoraMesh België](https://www.loramesh.be/) - Emergency communication network.
 - [MeshCore België](https://meshcore.radio-actief.be/) - Community wiki and setup guides.
+- [Meshpot](https://meshpot.be) - French-language, privacy-focused guide for Brussels residents.
 
 ### Brazil
 
