@@ -118,7 +118,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### iOS and Apple
 
-- [MeshCoreOne](https://github.com/Avi0n/MeshCoreOne) - Native Swift client for iOS, macOS and watchOS.
+- [MeshCore One](https://github.com/Avi0n/MeshCoreOne) - Native Swift client for iOS, iPadOS and macOS.
 - [PommeCore](https://github.com/mbedworth/PommeCore) - SwiftUI companion app for Apple platforms.
 
 ### Desktop
