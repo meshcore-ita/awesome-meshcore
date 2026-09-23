@@ -56,6 +56,8 @@ sensor networks.
   - [Hungary](#hungary)
   - [Ireland](#ireland)
   - [Italy](#italy)
+  - [Kazakhstan](#kazakhstan)
+  - [Latvia](#latvia)
   - [Lithuania](#lithuania)
   - [Netherlands](#netherlands)
   - [New Zealand](#new-zealand)
@@ -104,6 +106,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 - [Official app](https://files.liamcottle.net/MeshCore/) 🔒 - Proprietary companion app, also on Google Play and the App Store.
 - [KIEKR](https://kiekr.app/) 🔒 - iOS and Android community toolbox app.
+- [MCO Advanced](https://github.com/HDDen/meshcore-open) - MeshCore Open fork with lossless image sending, built-in wardriving and text compression.
 - [MeshCore Open](https://github.com/zjs81/meshcore-open) - Open-source Flutter client for mobile and desktop.
 - [MeshCore SAR](https://github.com/dz0ny/meshcore-sar) - Offline-first search and rescue app with low-bandwidth voice, images and team tracking.
 - [Nelos](https://nelos.app/) 🔒 - iOS and Android app for group messaging and tracking people, pets and belongings, with downloadable offline maps.
@@ -131,6 +134,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [MeshApp](https://github.com/smikme/meshapp) - Desktop client for MeshCore and Meshtastic with telemetry views.
 - [MeshCore gui](https://github.com/pe1hvh/meshcore-gui) - Native desktop client over BLE, no firmware changes required.
 - [MeshCore Insights](https://github.com/BomBefok/MeshcoreInsights) - Desktop dashboard with live maps, telemetry analysis and remote node management.
+- [meshcore-bin (AUR)](https://aur.archlinux.org/packages/meshcore-bin) 🔒 - Arch Linux package of the official app.
 - [MeshCoreQt](https://github.com/zhrkvl/MeshCoreQt) - Qt desktop client.
 - [meshy](https://codeberg.org/sesivany/meshy) - GTK4/libadwaita client for Linux and macOS.
 - [PyMeshCoreGUI](https://github.com/bliksemlabs/PyMeshCoreGUI) - Qt6 and Python desktop client.
@@ -138,6 +142,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### Web
 
+- [Official web app](https://app.meshcore.io/) 🔒 - Browser build of the official companion app.
 - [meshcore-web (aXistem)](https://github.com/aXistem-dev/meshcore-web) - Docker-ready browser build of the companion app over BLE or USB.
 - [meshcore-web (Vue)](https://github.com/liamcottle/meshcore-web) - Early Vue web client, superseded by the official app.
 - [meshcore-webui](https://github.com/adradr/meshcore-webui) - Web UI for managing devices and chatting on the mesh.
@@ -180,17 +185,20 @@ Grouped by platform. Apps marked 🔒 are closed source.
 ## Integrations and Bots
 
 - [meshcore-ha](https://github.com/meshcore-dev/meshcore-ha) - Official Home Assistant integration, installable via HACS.
+- [BinktermPHP](https://github.com/awehttam/binkterm-php) - Full BBS with web and telnet access, FidoNet and a MeshCore gateway.
 - [Cyclenerd MeshCore Bot](https://github.com/Cyclenerd/meshcore-bot) - Node.js command bot with scheduled repeater status collection.
 - [Domoticz MeshCore Plugin](https://github.com/galadril/Domoticz-MeshCore-Plugin) - Exposes nodes, telemetry and messaging as native Domoticz devices.
 - [ESPHome MeshCore](https://github.com/netmilk/esphome-meshcore) - ESPHome component turning XIAO nRF52840 boards into managed MeshCore sensor nodes.
+- [HopLink](https://github.com/A13xB0/hoplink) - Bridge between MeshCore, Meshtastic and Discord.
+- [map.meshcore.io uploader](https://github.com/recrof/map.meshcore.io-uploader) - Uploads every repeater and room server a companion hears to the public map.
 - [Mesh-Citadel BBS](https://github.com/taedryn/mesh-citadel) - Citadel-style BBS reachable over the mesh.
 - [MeshCore BBS](https://github.com/carsten-walther/MeshCore-BBS) - Store-and-forward bulletin board running on a companion radio.
 - [MeshCore Discord Bridge](https://github.com/Hude06/MeshCoreDiscordBridge) - Bidirectional Discord bridge with multi-channel routing and flood protection.
 - [MeshCore Email Gateway](https://github.com/MGJ520/MeshCore-Email-Gateway) - Bidirectional SMTP/IMAP gateway with a management API.
 - [MeshCore SAME EAS Alerter](https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter) - Forwards SAME emergency alert broadcasts onto the mesh.
 - [MeshCore UI for Home Assistant](https://github.com/Ratty7198/MeshCore-HA-UI) - Sidebar dashboard on top of meshcore-ha with chat, contacts and maps.
-- [meshcore-bot (Go)](https://github.com/meshcore-go/meshcore-bot) - Lightweight bot in Go.
 - [meshcore-bot](https://github.com/agessaman/meshcore-bot) - Python bot with Discord and Telegram bridging plus web viewer.
+- [meshcore-bot (Go)](https://github.com/meshcore-go/meshcore-bot) - Lightweight bot in Go.
 - [meshcore-discord-relay](https://github.com/yellowcooln/meshcore-discord-relay) - Relays MQTT traffic into Discord channels.
 - [meshcore-mcp](https://github.com/dpup/meshcore-mcp) - Model Context Protocol server exposing a node to AI agents.
 - [meshcore-mqtt](https://github.com/ipnet-mesh/meshcore-mqtt) - MQTT bridge over serial, BLE or TCP with TLS support.
@@ -217,6 +225,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [PotatoMesh](https://github.com/l5yth/potato-mesh) - Federated dashboard for local communities with remote ingestors and a public API.
 - [pyMC Console](https://github.com/Treehouse-00/pymc_console-dist) - Web dashboard for openHop Repeater with RF statistics and terrain mapping.
 - [Remote Terminal for MeshCore (jkingsman)](https://github.com/jkingsman/Remote-Terminal-for-MeshCore) - Power-user terminal with server-side packet capture, bots and MQTT integrations.
+- [UK Mesh](https://github.com/gadgethd/ukmesh) - Real-time analytics platform with observer ingestion, coverage and packet views.
 
 ## Packet Analysis
 
@@ -238,9 +247,12 @@ Grouped by platform. Apps marked 🔒 are closed source.
 ## Utilities
 
 - [Map Tiles Downloader](https://github.com/tekk/map-tiles-downloader) - Terminal utility for downloading offline OpenStreetMap tiles for mesh apps.
+- [MeshCore Geo Prune](https://static.pixelentry.de/meshcore/geo-prune/) - Browser tool that cleans the contact list with a geofence.
 - [MeshCore Proxy](https://github.com/rgregg/meshcore-proxy) - TCP proxy exposing a locally connected companion radio to remote clients.
+- [MeshCore Regions catalog](https://github.com/marcelverdult/meshcore-regions) - Community-editable JSON catalog of region codes used worldwide.
 - [MeshCore Utils](https://github.com/samschlegel/meshcore-utils) - Rust vanity Ed25519 key generator with CUDA or Metal acceleration.
 - [MeshCore Web Key Generator](https://github.com/agessaman/meshcore-web-keygen) - Browser-only Ed25519 key generator with custom public-key prefixes.
+- [MeshCore Web Keygen](https://gessaman.com/mc-keygen/) - Client-side vanity Ed25519 key generator with custom hex prefixes.
 
 ## Firmware and Flashing
 
@@ -287,11 +299,13 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [Heltec V4.2 Multi-Boot](https://github.com/Finmacjones/HeltecV4.2MultiBoot) - Boot selector that switches between MeshCore, Meshtastic and RNode images.
 - [Mesh America Device Configurator](https://meshamerica.com/device-configurator/) - Browser flasher and configurator over Web Serial.
 - [Mesh Loader](https://github.com/eliahreeves/mesh-loader) - Dual-boot loader keeping MeshCore and Meshtastic in separate ESP32 partitions.
+- [MeshCore Custom Firmware Builder](https://github.com/christian45410/meshcore-cfw-builder) - Web builder for custom images on ESP32 boards.
 - [MeshCore Drone Updater](https://github.com/lucidnx/meshcore-drone-updater) - Raspberry Pi service for drive-by or drone-assisted DFU updates of unreachable nodes.
 - [MeshCore-OTA-Flasher](https://github.com/Dreikor17/MeshCore-OTA-Flasher) - Windows tool for nRF52840 firmware updates over Bluetooth LE.
 - [MeshFirmware](https://github.com/mikecarper/meshfirmware) - Interactive Windows and Linux scripts for selecting, flashing and compiling releases.
 - [MeshForge](https://github.com/MeshEnvy/mesh-forge) - Cloud firmware builder and web flasher for LoRa mesh devices.
 - [Python Nordic Legacy DFU Tool](https://github.com/recrof/nrf_dfu_py) - Cross-platform nRF51/nRF52 Bluetooth DFU tool with GUI and CLI.
+- [weebl2000's Firmware Builder](https://mcimages.weebl.me/) - Builds and downloads firmware images for supported boards.
 - [XIAO nRF52 Updater](https://github.com/recrof/xiao_nrf52_updater) - Updater firmware that flashes nearby nRF52 nodes over Bluetooth DFU.
 
 ## Hardware
@@ -344,10 +358,13 @@ Tools to see what is happening on the mesh.
 
 ### Maps
 
+- [#BEmesh map](https://meshmap.radio-actief.be/) - Belgian map with network stats and a configurator.
 - [Czech coverage map](https://pokryti.meshcore.cz/) - Czech coverage with terrain-aware planning.
 - [HanseMesh map](https://hansemesh.de/netzwerk/karte/) - Northern Germany repeater status and coverage.
+- [HopRadar](https://hopradar.net/) - Browser live map and analyzer for your own node over BLE or USB, with hop traces and SNR.
 - [Iceland analyzer](https://mc.flatuslifir.is/) - Live CoreScope instance for the Icelandic network.
 - [KernWi-Fi map](https://meshcore.kernwifi.com.au/map) - South Australian repeater and observer network.
+- [KiekR map](https://map.kiekr.app/) - Region coverage derived from neighbour observations uploaded by KiekR users.
 - [LocalMesh Germany map](https://localmesh.de/karte/) - German coverage with repeater directory.
 - [LocalMesh Netherlands map](https://localmesh.nl/en/map/) - Dutch network coverage.
 - [LoraMesh France map](https://loramesh.fr/carte/) - French coverage by region.
@@ -356,21 +373,28 @@ Tools to see what is happening on the mesh.
 - [MeshCore Europe map](https://meshcoreeurope.org/en/map/) - European repeater and room server coverage.
 - [MeshCore Map](https://map.meshcore.dev/) - Static user uploads.
 - [MeshCore Polska map](https://mapa.meshcorepolska.org/) - Polish clients, repeaters, room servers and sensors.
+- [MeshCore-de.fyi region map](https://umap.openstreetmap.de/en/map/meshcore-defyi_130650) - Editable uMap of regions, mainly Germany.
 - [MeshMapper](https://meshmapper.net/) - Wardriving coverage platform with regional instances and an open API.
 
 ### Diagnostics and Dashboards
 
+- [Belgian MQTT analyzer](https://analyzer.on8ar.eu/) - CoreScope instance for Belgian traffic.
 - [Boston MeshCore MQTT dashboard](https://mcmqttdashboard.bostonme.sh/) - Live MQTT node presence and traffic metrics.
 - [EU Meshcore Analyzer](https://meshcore-analyzer.eu/) - Live visual map of European MeshCore LoRa network traffic.
 - [KernWi-Fi live telemetry](https://meshcore.kernwifi.com.au/live) - South Australian live activity feed.
 - [MeshCore Analyzer (letsmesh)](https://analyzer.letsmesh.net/) - Node connectivity, packet analysis and mesh health metrics.
 - [MeshCore Tools](https://meshcore.envoyage.io/) - Repeater configurator and region code lookup helpers.
+- [MeshCore Wall of Shame](https://advertrank.com/) - Tongue-in-cheek ranking of the nodes flooding the mesh with adverts.
+- [MeshRank](https://meshrank.net/) - Leaderboard and analytics for repeaters and routes, mainly in the UK.
 - [TennMesh Live](https://live.tennmesh.com/) - Tennessee telemetry with RF link analysis and routing loop detection.
 
 ### RF Planning
 
 - [contempl8 Relief](https://contempl8.io/tools/relief/) - Free browser 3D terrain block viewer for inspecting the landform around a site; can be slow on large areas.
 - [contempl8 Topo](https://contempl8.io/tools/topo/) - Free browser elevation profile along a drawn line, useful for rough line-of-sight checks.
+- [HopReach](https://github.com/A13xB0/hopreach) - Terrain-aware coverage mapping and simulator for repeater networks.
+- [Mesh Community Planner](https://github.com/PapaSierra555/MeshCommunityPlanner) - Desktop planner with terrain-aware propagation, hardware selection and bill of materials.
+- [MeshBench](https://github.com/MeshBench/meshbench) - Network simulator running real firmware against a sample-accurate LoRa channel and real terrain.
 - [MeshKit](https://meshkit.app/) - Browser site planner with terrain LOS, Fresnel analysis and BLE radio tools.
 - [MeshOMatic](https://map.meshomatic.net/) - Terrain-aware repeater placement planning and topology analysis.
 
@@ -386,19 +410,24 @@ Tools to see what is happening on the mesh.
 - [Mesh Sorocaba configuração](https://www.meshsorocaba.org/configuracao/) - Portuguese-language setup documentation.
 - [MeshCore Europe getting started](https://meshcoreeurope.org/en/get-started/) - Multilingual introduction.
 - [MeshCore Europe repeater guide](https://meshcoreeurope.org/en/repeater-guide/) - Repeater deployment walkthrough.
+- [MeshCore FAQ (LitBomb)](https://github.com/LitBomb/MeshCore-FAQ) - Community FAQ in English and German.
 - [MeshCore Ninja](https://meshcore.ninja/) - Open catalog of regional networks, devices, firmwares and software.
+- [MeshCore OTA guide](https://github.com/Mraanderson/meshcore-ota) - Step-by-step OTA firmware updates for repeaters and room servers.
 - [NodakMesh wiki](https://nodakmesh.org/meshcore/wiki) - Reference documentation and setup guides.
+- [ScotMesh getting started](https://wiki.scotmesh.uk/en/MeshCore/getting-started) - Beginner guide from unboxing to the first message.
 - [WISSEN TECHNIK podcast](https://wissen-technik-meshcore-meshtastic.podigee.io/) - German-language podcast on MeshCore and Meshtastic.
 
 ## Communities
 
 ### Virtual
 
+- [LetsMesh Forum](https://forum.letsmesh.net/) - Community forum for MeshCore and LoRa mesh.
 - [MeshCore subreddit](https://old.reddit.com/r/meshcore/) - Community discussion.
 
 ### Australia
 
 - [EastMesh Australia](https://eastmesh.au/) - Eastern Australia community.
+- [Mesh Brisbane User Group wiki](https://wiki.mbug.com.au/en/Meshcore/Settings) - Brisbane and South East Queensland settings.
 - [MeshCore AUS wiki](https://wiki.meshcoreaus.org/) - Australian community documentation.
 - [MeshSydney](https://meshsydney.com/) - Sydney configuration and coordination.
 - [NSW Mesh](https://nswmesh.au/) - Sydney and New South Wales network with a community knowledge base.
@@ -409,6 +438,7 @@ Tools to see what is happening on the mesh.
 - [CarinthiaMesh wiki](https://wiki.carinthiamesh.com/) - Carinthian regional wiki.
 - [MeshCore AT Telegram group](https://t.me/meshcoreat) - Austrian community chat.
 - [MeshCore Austria](https://meshcore.at/) - German-language documentation and setup guides.
+- [MeshCore-Austria.at](https://www.meshcore-austria.at/doku.php?id=start) - German-language community wiki.
 
 ### Belarus
 
@@ -431,6 +461,7 @@ Tools to see what is happening on the mesh.
 ### Canada
 
 - [CascadiaMesh](https://cascadiamesh.org/) - Pacific Northwest network spanning British Columbia, Washington and Oregon.
+- [Greater Ottawa Mesh](https://ottawamesh.ca/) - Ottawa community; also covers Meshtastic.
 - [MeshCore Canada](https://meshcore.ca/) - National site with provincial communities.
 - [Montreal Mesh](https://www.montrealmesh.ca/en/) - Montreal area MeshCore and Meshtastic community.
 - [Salish Mesh](https://salishmesh.net/) - Salish Sea region of southwest British Columbia.
@@ -456,16 +487,20 @@ Tools to see what is happening on the mesh.
 - [LoraMesh France](https://loramesh.fr/) - French community with regional coverage.
 - [MeshCore France](https://www.meshcore.fr/) - French network coordination.
 - [MeshCore Paris](https://meshcore.paris/) - Paris and Greater Paris region network.
+- [Île-de-France Mesh](https://wiki.mesh-idf.fr) - Paris region wiki; also covers Meshtastic.
 
 ### Germany
 
+- [BSmesh](https://bsmesh.de/) - Greater Braunschweig network.
 - [HanseMesh](https://hansemesh.de/) - Northern Germany network and tutorials.
 - [IsarMesh](https://isarmesh.de/) - Bavarian community forum.
 - [LocalMesh Deutschland](https://www.localmesh.de/) - German emergency radio network with guides.
 - [Mesh Dresden](https://meshdresden.eu/) - Dresden and wider Saxony community.
 - [Mesh Rheinland](https://www.meshrheinland.de/) - Rheinland and western Germany community.
+- [MeshCore DE Matrix room](https://matrix.to/#/#meshcore-netzwerk-de:matrix.org) - German community chat.
 - [MeshCore DE Telegram group](https://t.me/meshcorede) - German community chat.
 - [MeshCore Deutschland wiki](https://meshcore-de.fyi/) - German-language wiki hub with setup guides and regional group directory.
+- [MeshCore Dresden](https://loramesh-dresden.de/) - Dresden network.
 - [MeshCore Essen-Kettwig](https://jonathansalim.de/) - Public network around Essen-Kettwig in the Ruhr area.
 - [MeshMitte](https://msh3.de/) - Central Germany community.
 - [Münsterland Mesh](https://mcml.info/) - Münsterland region of North Rhine-Westphalia.
@@ -487,6 +522,14 @@ Tools to see what is happening on the mesh.
 - [MeshCore ITA](https://meshcore-ita.github.io/) - Italian-language documentation: setup guide, the shared Italian radio preset, hardware, CLI reference, troubleshooting, FAQ and glossary.
 - [MeshCore Italia](https://www.meshcoreitalia.it) - Nationwide Italian mesh on the EU/UK narrow preset, with map and Telegram group.
 - [MeshCore Repeater Guide Italia](https://codeberg.org/3yte/meshcore-italia) - Italian CLI guide for repeaters on the national mesh, with the regional scope tree and a [command wizard](https://3yte.codeberg.page/meshcore-italia/).
+
+### Kazakhstan
+
+- [MeshCore Kazakhstan](https://meshcore.kz/) - National community site.
+
+### Latvia
+
+- [Apraide.lv](https://apraide.lv/) - Latvian LoRa mesh community; also covers Meshtastic.
 
 ### Lithuania
 
@@ -522,6 +565,7 @@ Tools to see what is happening on the mesh.
 ### Romania
 
 - [Brașov Mesh](https://brasovmesh.com/) - Brașov network on the EU/UK narrow preset.
+- [MeshCore Iași](https://meshcore-iasi.ro/) - Iași network with a live dashboard.
 
 ### Russia
 
@@ -540,6 +584,7 @@ Tools to see what is happening on the mesh.
 
 - [MeshCore Catalunya](https://docs.livemap-meshcorecat.com/) - Catalonia community with live map and documentation.
 - [NomadMesh](https://nomadmesh.org/) - Alpujarra region community network.
+- [Red Sierra Sur](https://sierrasur.github.io/) - Jaén province network.
 - [RegionMesh España](https://www.regionmesh.com/es/) - Spanish-language community hub and guides.
 
 ### Sweden
@@ -552,6 +597,7 @@ Tools to see what is happening on the mesh.
 
 ### Ukraine
 
+- [MeshCore UA (Kyiv)](https://meshcore.kiev.ua/) - Ukrainian public mesh community.
 - [MeshCore Ukraine](https://meshcore-ua.net/) - Volunteer-run public mesh for resilient communication across Ukraine.
 
 ### United Kingdom
@@ -573,19 +619,24 @@ Tools to see what is happening on the mesh.
 - [Denver MeshCore](https://denvermc.com/) - Denver metro community.
 - [Eastern US MeshCore](https://eastme.sh/) - Eastern states network.
 - [Florida Mesh](https://areyoumeshingwith.us/) - Florida-wide network run by amateur radio operators.
+- [Florida MeshCore](https://mc.flmesh.us/) - Statewide community network for Florida.
 - [Gulf Coast Mesh](https://gulfcoastmesh.org) - Louisiana and US Gulf Coast network.
 - [Idaho Mesh](https://idahomesh.org) - Idaho network centred on the Treasure Valley.
 - [Inland NW Mesh](https://inlandnwmesh.org/) - Spokane, Coeur d'Alene, the Palouse and Lewiston/Clarkston.
+- [Kentucky Mesh](https://mesh-ky.org/) - Kentucky network; also covers Meshtastic.
 - [Lehigh Valley Mesh](https://lvmesh.com/) - Lehigh Valley and eastern Pennsylvania.
 - [Long Island Mesh](https://limesh.org/) - Long Island, New York network for MeshCore and Meshtastic.
 - [Madison Mesh](https://madmesh.net/) - Community-owned network in Madison, Wisconsin.
 - [Mesh America](https://meshamerica.com/) - Guides, wiki and network design articles.
+- [MeshCore Lexington](https://meshcorelexington.com/) - Lexington, Kentucky network.
 - [MeshCore TX](https://meshcoretx.net/) - Texas radio preset and repeater naming standard.
 - [MeshNY](https://nyme.sh/) - New York City community.
 - [MeshTexas](https://meshtexas.net/) - Statewide Texas network with a shared MQTT broker.
+- [Missouri Mesh](https://missourimesh.org/) - Missouri community; also covers Meshtastic.
 - [Mountain West Mesh](https://mwmesh.com/) - Utah, Idaho and Wyoming network.
 - [MSP Mesh](https://mspmesh.org/) - Minneapolis-Saint Paul and Greater Minnesota group.
 - [Nebraska Mesh](https://www.nebraskamesh.net/) - Statewide Nebraska network.
+- [Nevada Mesh](https://nvme.sh/) - Carson City, Reno and northern Nevada network.
 - [New England Mesh](https://nhmesh.com/) - New England-wide community across CT, MA, NH and ME.
 - [NodakMesh](https://nodakmesh.org/) - North Dakota community with wiki and guides.
 - [NTX Mesh](https://ntxmesh.com/) - Dallas-Fort Worth and greater North Texas.
