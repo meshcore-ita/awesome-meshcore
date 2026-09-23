@@ -102,7 +102,6 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [KIEKR](https://kiekr.app/) 🔒 - iOS and Android community toolbox app.
 - [MeshCore Open](https://github.com/zjs81/meshcore-open) - Open-source Flutter client for mobile and desktop.
 - [MeshCore SAR](https://github.com/dz0ny/meshcore-sar) - Offline-first search and rescue app with low-bandwidth voice, images and team tracking.
-- [MeshOS](https://www.meshcore.co.uk/meshos) 🔒 - Licensed companion app and standalone firmware from MeshCore.co.uk (third-party, not affiliated with meshcore.io).
 - [Nelos](https://nelos.app/) 🔒 - iOS and Android app for group messaging and GPS tracking, with offline maps.
 - [Offband MeshCore](https://github.com/OffbandMesh/meshcore-client) - Cross-platform client with direct and channel chat.
 - [SigurdOS Client](https://github.com/hermes-gadget/SigurdOS-client) - Flutter client forked from MeshCore Open with a pixel-art theme.
@@ -312,7 +311,6 @@ Sold with MeshCore firmware pre-installed, or with MeshCore selectable at order.
 - [RAK WisMesh Tag (Atlavox)](https://atlavox.com/products/wismesh-tag-meshtastic-meshcore-radio) - IP66 GPS tracker; choose the MeshCore variant when ordering.
 - [Elecrow ThinkNode M9](https://www.elecrow.com/thinknode-m9-meshcore-communication-terminal-with-full-keyboard-2-4inch-lcd-esp32-s3-lr1110-gps-2300mah.html) - Standalone communicator with QWERTY keyboard, colour LCD and GPS.
 - [LilyGo T-LoRa Pager MeshCore](https://lilygo.cc/products/t-lora-pager-meshcore) - Pocket pager with keyboard, display and LR1121 radio.
-- [MeshCore.co.uk store](https://store.meshcore.co.uk/) - Devices shipped with MeshOS or MeshCore firmware (third-party, not affiliated with meshcore.io).
 
 ### DIY Builds
 
@@ -383,7 +381,6 @@ Tools to see what is happening on the mesh.
 - [MeshCore Europe getting started](https://meshcoreeurope.org/en/get-started/) - Multilingual introduction.
 - [MeshCore Europe repeater guide](https://meshcoreeurope.org/en/repeater-guide/) - Repeater deployment walkthrough.
 - [MeshCore Ninja](https://meshcore.ninja/) - Open catalog of regional networks, devices, firmwares and software.
-- [MeshCore.co.uk video collection](https://meshcore.co.uk/videos.html) - Curated community videos (third-party, not affiliated with meshcore.io).
 - [NodakMesh wiki](https://nodakmesh.org/meshcore/wiki) - Reference documentation and setup guides.
 - [WISSEN TECHNIK podcast](https://wissen-technik-meshcore-meshtastic.podigee.io/) - German-language podcast on MeshCore and Meshtastic.
 
@@ -537,7 +534,6 @@ Tools to see what is happening on the mesh.
 - [IPNet](https://ipnt.uk/) - Ipswich hub with CoreScope dashboards and MQTT services.
 - [LocalMesh UK](https://localmesh.co.uk/) - UK emergency network with city communities.
 - [MeshCore Wales](https://meshcore.wales/) - Welsh regional settings and coordination.
-- [MeshCore.co.uk](https://meshcore.co.uk/) - UK community hub, MeshOS apps, device configurator and store (third-party, not affiliated with meshcore.io).
 - [MeshHub UK](https://meshhub.uk/) - National coordination platform.
 - [NorthMesh](https://northmesh.co.uk/) - Northern England community network.
 - [ScotMesh](https://scotmesh.mm7roq.compute.oarc.uk/) - Scottish community tools.
