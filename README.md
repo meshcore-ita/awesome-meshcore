@@ -127,6 +127,7 @@ Everything from the official MeshCore project:
 - [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) - Android client focused on group operations.
 - [meshGO!](https://play.google.com/store/apps/details?id=com.meshcore.meshgo) - Android off-grid messaging client.
 - [MeshMapper](https://play.google.com/store/apps/details?id=net.meshmapper.app) - Android coverage mapping and wardriving app.
+- [Nelos](https://nelos.app/) - iOS and Android app for group messaging and GPS tracking, with offline maps.
 
 ## Libraries and SDKs
 
