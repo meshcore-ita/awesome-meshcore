@@ -23,6 +23,11 @@ sensor networks.
 - [Firmware and Flashing](#firmware-and-flashing)
   - [Forks and Custom Firmware](#forks-and-custom-firmware)
   - [Flashing and Updating](#flashing-and-updating)
+- [Hardware](#hardware)
+  - [Supported Devices](#supported-devices)
+  - [Pre-built Devices](#pre-built-devices)
+  - [DIY Builds](#diy-builds)
+  - [Enclosures and Mounts](#enclosures-and-mounts)
 - [Maps and Diagnostics](#maps-and-diagnostics)
   - [Maps](#maps)
   - [Diagnostics and Dashboards](#diagnostics-and-dashboards)
@@ -261,6 +266,51 @@ Everything from the official MeshCore project:
 - [MeshCore Drone Updater](https://github.com/lucidnx/meshcore-drone-updater) - Raspberry Pi service for drive-by or drone-assisted DFU updates of unreachable nodes.
 - [Mesh Loader](https://github.com/eliahreeves/mesh-loader) - Dual-boot loader keeping MeshCore and Meshtastic in separate ESP32 partitions.
 - [Heltec V4.2 Multi-Boot](https://github.com/Finmacjones/HeltecV4.2MultiBoot) - Boot selector that switches between MeshCore, Meshtastic and RNode images.
+
+## Hardware
+
+### Supported Devices
+
+Compatibility references; check these before buying a board.
+
+- [Mesh America supported hardware](https://wiki.meshamerica.com/books/meshcore/page/supported-hardware-for-meshcore) - Community list of compatible boards and chipsets.
+- [mesh-sn.de firmware matrix](https://mesh-sn.de/en/devices/matrix) - Per-device matrix of which MeshCore firmware builds are available.
+- [MeshCore Europe devices](https://meshcoreeurope.org/en/devices/) - Multilingual device directory with setup guides.
+- [LocalMesh UK devices](https://localmesh.co.uk/devices/) - Device guides for the UK emergency network.
+
+### Pre-built Devices
+
+Sold with MeshCore firmware pre-installed, or with MeshCore selectable at order.
+
+- [Seeed Wio Tracker L1 Pro for MeshCore](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-for-Meshcore-p-6717.html) - Handheld with GPS, OLED display and battery.
+- [SenseCAP Solar Node P1 Pro for MeshCore](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshcore-p-6741.html) - Solar-powered outdoor repeater with GPS.
+- [Seeed MeshCore Starter Kit](https://www.seeedstudio.com/MeshCore-Starter-Kit-Ready-to-Use-Off-Grid-Instant-Reliable-Communication.html) - Bundle of a repeater and client nodes ready to deploy.
+- [RAK WisMesh Tag (Atlavox)](https://atlavox.com/products/wismesh-tag-meshtastic-meshcore-radio) - IP66 GPS tracker; choose the MeshCore variant when ordering.
+- [Elecrow ThinkNode M9](https://www.elecrow.com/thinknode-m9-meshcore-communication-terminal-with-full-keyboard-2-4inch-lcd-esp32-s3-lr1110-gps-2300mah.html) - Standalone communicator with QWERTY keyboard, colour LCD and GPS.
+- [LilyGo T-LoRa Pager MeshCore](https://lilygo.cc/products/t-lora-pager-meshcore) - Pocket pager with keyboard, display and LR1121 radio.
+- [MeshCore.co.uk store](https://store.meshcore.co.uk/) - Devices shipped with MeshOS or MeshCore firmware.
+
+### DIY Builds
+
+Open designs with published files (PCB, BOM, STL or detailed build guide).
+
+- [bardolf MeshCore Repeater](https://github.com/bardolf/meshcore-repeater) - Solar repeater with FreeCAD enclosure, STL files and full BOM.
+- [RePeter](https://github.com/robrec/MeshCoreRepeater-RePeter) - Bremen repeater board with Gerbers, schematics, BOM and STEP model.
+- [MeshCore E22P Repeater](https://github.com/Sukecz/MeshCore-E22P-Repeater) - XIAO ESP32-S3 repeater with an Ebyte E22P module, wiring and firmware.
+- [XIAO S3 Dual-Radio Repeater](https://github.com/bouyous/meshcore-xiao-s3-dual-radio-repeater) - Two-radio summit repeater with assembly guide and field test reports.
+- [LoRaMeshNodes](https://github.com/hotwolf/LoRaMeshNodes) - Mobile and solar nodes with OpenSCAD enclosures, STL files and BOMs.
+- [915 MHz Mesh Antenna](https://github.com/ellisgl/915-mesh-antenna) - Stacked collinear antenna with simulation files and build dimensions.
+- [NodakMesh solar repeater build](https://nodakmesh.org/blog/meshcore-solar-repeater-build) - Parts list, solar sizing, weatherproofing and configuration walkthrough.
+
+### Enclosures and Mounts
+
+- [NodakMesh enclosures guide](https://nodakmesh.org/meshcore/enclosures) - Overview of commercial and DIY cases with IP-rating guidance.
+- [Outdoor Case for MeshCore Node / Repeater](https://www.thingiverse.com/thing:7383479) - Printable weatherproof repeater case.
+- [MeshCore mast enclosure for Heltec V3](https://www.printables.com/model/1767610-meshcore-mast-enclosure-heltec-v3) - Mast-mounted outdoor enclosure.
+- [The Corebell](https://www.printables.com/model/1490873-the-corebell-a-meshcoremeshtastic-solar-node) - Printable solar node enclosure.
+- ["Ray" Heltec V3 case](https://www.thingiverse.com/thing:7395161) - Handheld case with room for one 18650 cell.
+- [Heltec T114 case with battery](https://www.thingiverse.com/thing:7390213) - Compact handheld case with an integrated battery bay.
+- [Case-Stick for ProMicro nRF52](https://www.thingiverse.com/thing:7394936) - Stick-shaped case for ProMicro nRF52840 boards.
 
 ## Maps and Diagnostics
 
