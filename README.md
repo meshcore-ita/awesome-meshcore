@@ -552,9 +552,11 @@ Tools to see what is happening on the mesh.
 - [Idaho Mesh](https://idahomesh.org) - Idaho network centred on the Treasure Valley.
 - [Inland NW Mesh](https://inlandnwmesh.org/) - Spokane, Coeur d'Alene, the Palouse and Lewiston/Clarkston.
 - [Lehigh Valley Mesh](https://lvmesh.com/) - Lehigh Valley and eastern Pennsylvania.
+- [Long Island Mesh](https://limesh.org/) - Long Island, New York network for MeshCore and Meshtastic.
 - [Madison Mesh](https://madmesh.net/) - Community-owned network in Madison, Wisconsin.
 - [Mesh America](https://meshamerica.com/) - Guides, wiki and network design articles.
 - [MeshCore TX](https://meshcoretx.net/) - Texas radio preset and repeater naming standard.
+- [MeshNY](https://nyme.sh/) - New York City community.
 - [MeshTexas](https://meshtexas.net/) - Statewide Texas network with a shared MQTT broker.
 - [Mountain West Mesh](https://mwmesh.com/) - Utah, Idaho and Wyoming network.
 - [MSP Mesh](https://mspmesh.org/) - Minneapolis-Saint Paul and Greater Minnesota group.
