@@ -9,6 +9,10 @@ Thanks for helping keep this list useful.
 - Keep the description short, factual and ending with a period.
 - Place the entry in the most specific existing section. Only propose a new
   section when several entries would live in it.
+- Keep entries in alphabetical order within their section (case-insensitive,
+  ignoring a leading "The"). Entries described as "Official" stay at the top.
+  Official Resources, Social Media, Closed Source, Supported Devices and
+  Pre-built Devices keep their curated order.
 - Entries must be MeshCore-related, working and maintained. Dead links and
   abandoned projects are removed.
 - Check that the entry is not already listed elsewhere in the readme; duplicate
