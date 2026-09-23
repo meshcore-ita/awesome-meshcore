@@ -102,7 +102,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [KIEKR](https://kiekr.app/) 🔒 - iOS and Android community toolbox app.
 - [MeshCore Open](https://github.com/zjs81/meshcore-open) - Open-source Flutter client for mobile and desktop.
 - [MeshCore SAR](https://github.com/dz0ny/meshcore-sar) - Offline-first search and rescue app with low-bandwidth voice, images and team tracking.
-- [Nelos](https://nelos.app/) 🔒 - iOS and Android app for group messaging and GPS tracking, with offline maps.
+- [Nelos](https://nelos.app/) 🔒 - iOS and Android app for group messaging and tracking people, pets and belongings, with downloadable offline maps.
 - [Offband MeshCore](https://github.com/OffbandMesh/meshcore-client) - Cross-platform client with direct and channel chat.
 - [SigurdOS Client](https://github.com/hermes-gadget/SigurdOS-client) - Flutter client forked from MeshCore Open with a pixel-art theme.
 
