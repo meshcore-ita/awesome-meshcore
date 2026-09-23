@@ -13,8 +13,13 @@ sensor networks.
 - [Official Resources](#official-resources)
   - [Social Media](#social-media)
 - [Client](#client)
-  - [Open Source](#open-source)
-  - [Closed Source](#closed-source)
+  - [Cross-Platform](#cross-platform)
+  - [Android](#android)
+  - [iOS and Apple](#ios-and-apple)
+  - [Desktop](#desktop)
+  - [Web](#web)
+  - [Terminal](#terminal)
+  - [Other Platforms](#other-platforms)
 - [Libraries and SDKs](#libraries-and-sdks)
 - [Integrations and Bots](#integrations-and-bots)
 - [Self-Hosted Dashboards](#self-hosted-dashboards)
@@ -89,50 +94,67 @@ Everything from the official MeshCore project:
 
 ## Client
 
-### Open Source
+Grouped by platform. Apps marked 🔒 are closed source.
+
+### Cross-Platform
+
+- [Official app](https://files.liamcottle.net/MeshCore/) 🔒 - Proprietary companion app, also on Google Play and the App Store.
+- [KIEKR](https://kiekr.app/) 🔒 - iOS and Android community toolbox app.
+- [MeshCore Open](https://github.com/zjs81/meshcore-open) - Open-source Flutter client for mobile and desktop.
+- [MeshCore SAR](https://github.com/dz0ny/meshcore-sar) - Offline-first search and rescue app with low-bandwidth voice, images and team tracking.
+- [MeshOS](https://www.meshcore.co.uk/meshos) 🔒 - Licensed companion app and standalone firmware from MeshCore.co.uk.
+- [Nelos](https://nelos.app/) 🔒 - iOS and Android app for group messaging and GPS tracking, with offline maps.
+- [Offband MeshCore](https://github.com/OffbandMesh/meshcore-client) - Cross-platform client with direct and channel chat.
+- [SigurdOS Client](https://github.com/hermes-gadget/SigurdOS-client) - Flutter client forked from MeshCore Open with a pixel-art theme.
+
+### Android
+
+- [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) - Hardened Android client, no Google Play Services required.
+- [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) 🔒 - Android client focused on group operations.
+- [Meshcore-Wardrive-Android](https://github.com/mintylinux/Meshcore-Wardrive-Android) - Flutter wardriving app for mapping coverage.
+- [meshGO!](https://play.google.com/store/apps/details?id=com.meshcore.meshgo) 🔒 - Android off-grid messaging client.
+- [MeshMapper](https://play.google.com/store/apps/details?id=net.meshmapper.app) 🔒 - Android coverage mapping and wardriving app.
+- [meshtrax](https://github.com/venamartin/meshtrax) - Flutter Android client with mapping and messaging.
+- [Yours](https://github.com/STCisGOOD/yours-x-lunarcore) - Android encrypted messaging client for LunarCore firmware with onion routing experiments.
+
+### iOS and Apple
+
+- [MeshCoreOne](https://github.com/Avi0n/MeshCoreOne) - Native Swift client for iOS, macOS and watchOS.
+- [PommeCore](https://github.com/mbedworth/PommeCore) - SwiftUI companion app for Apple platforms.
+
+### Desktop
 
 - [mesh-client](https://github.com/Colorado-Mesh/mesh-client) - Electron desktop client for MeshCore, Meshtastic and Reticulum.
 - [MeshApp](https://github.com/smikme/meshapp) - Desktop client for MeshCore and Meshtastic with telemetry views.
-- [MeshChaTUI](https://github.com/g-d-j-evans/MeschaTUI) - Textual terminal client for Linux with delivery confirmation over serial or BLE.
 - [MeshCore gui](https://github.com/pe1hvh/meshcore-gui) - Native desktop client over BLE, no firmware changes required.
 - [MeshCore Insights](https://github.com/BomBefok/MeshcoreInsights) - Desktop dashboard with live maps, telemetry analysis and remote node management.
-- [MeshCore Open](https://github.com/zjs81/meshcore-open) - Open-source Flutter client for mobile and desktop.
-- [MeshCore SAR](https://github.com/dz0ny/meshcore-sar) - Offline-first search and rescue app with low-bandwidth voice, images and team tracking.
-- [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) - Hardened Android client, no Google Play Services required.
-- [Meshcore-Wardrive-Android](https://github.com/mintylinux/Meshcore-Wardrive-Android) - Flutter wardriving app for mapping coverage.
+- [MeshCoreQt](https://github.com/zhrkvl/MeshCoreQt) - Qt desktop client.
+- [meshy](https://codeberg.org/sesivany/meshy) - GTK4/libadwaita client for Linux and macOS.
+- [PyMeshCoreGUI](https://github.com/bliksemlabs/PyMeshCoreGUI) - Qt6 and Python desktop client.
+- [QMeshcoreApp](https://github.com/FelixvdDonk/QMeshcoreApp) - Qt6/QML desktop companion with BLE/serial, map and RX log.
+
+### Web
+
 - [meshcore-web (aXistem)](https://github.com/aXistem-dev/meshcore-web) - Docker-ready browser build of the companion app over BLE or USB.
 - [meshcore-web (Vue)](https://github.com/liamcottle/meshcore-web) - Early Vue web client, superseded by the official app.
 - [meshcore-webui](https://github.com/adradr/meshcore-webui) - Web UI for managing devices and chatting on the mesh.
-- [MeshCore64](https://github.com/swannman/meshcore64) - Commodore 64 chat client over a SwiftLink-compatible serial cartridge.
-- [MeshCoreOne](https://github.com/Avi0n/MeshCoreOne) - Native Swift client for iOS, macOS and watchOS.
-- [MeshCoreQt](https://github.com/zhrkvl/MeshCoreQt) - Qt desktop client.
 - [MeshCorium](https://github.com/PEG4TRON/MeshCorium) - Self-hosted client with a local web interface and hybrid contact system.
-- [meshtrax](https://github.com/venamartin/meshtrax) - Flutter Android client with mapping and messaging.
-- [meshtui](https://github.com/ekollof/meshtui) - Textual terminal client with delivery tracking and device management.
-- [meshy](https://codeberg.org/sesivany/meshy) - GTK4/libadwaita client for Linux and macOS.
 - [Mycelium](https://github.com/WattleFoxxo/Mycelium) - Browser client for messaging over serial or BLE.
-- [Offband MeshCore](https://github.com/OffbandMesh/meshcore-client) - Cross-platform client with direct and channel chat.
-- [PicoMeshCore](https://github.com/Vigoleis912/PicoMeshCore) - MMBasic companion client for the Raspberry Pi Pico over UART.
-- [PommeCore](https://github.com/mbedworth/PommeCore) - SwiftUI companion app for Apple platforms.
-- [PyMeshCoreGUI](https://github.com/bliksemlabs/PyMeshCoreGUI) - Qt6 and Python desktop client.
-- [QMeshcoreApp](https://github.com/FelixvdDonk/QMeshcoreApp) - Qt6/QML desktop companion with BLE/serial, map and RX log.
+
+### Terminal
+
+- [MeshChaTUI](https://github.com/g-d-j-evans/MeschaTUI) - Textual terminal client for Linux with delivery confirmation over serial or BLE.
+- [meshtui](https://github.com/ekollof/meshtui) - Textual terminal client with delivery tracking and device management.
 - [QTC](https://github.com/initsixdev/QTC) - Old-school terminal client for Linux and macOS.
 - [Remote Terminal for MeshCore](https://github.com/MichTronics/Remote-Terminal-for-MeshCore) - Remote terminal for repeaters with packet capture and MQTT.
+- [tui-meshcore](https://github.com/guax/tui-meshcore) - Terminal chat client with persistent history and regional presets.
+
+### Other Platforms
+
+- [MeshCore64](https://github.com/swannman/meshcore64) - Commodore 64 chat client over a SwiftLink-compatible serial cartridge.
+- [PicoMeshCore](https://github.com/Vigoleis912/PicoMeshCore) - MMBasic companion client for the Raspberry Pi Pico over UART.
 - [Roadstr](https://github.com/jooray/roadstr) - Road-event reporting over signed Nostr events with MeshCore as transport.
 - [Sestriere](https://github.com/atomozero/Sestriere) - Native Haiku OS client with maps, packet analysis and repeater administration.
-- [SigurdOS Client](https://github.com/hermes-gadget/SigurdOS-client) - Flutter client forked from MeshCore Open with a pixel-art theme.
-- [tui-meshcore](https://github.com/guax/tui-meshcore) - Terminal chat client with persistent history and regional presets.
-- [Yours](https://github.com/STCisGOOD/yours-x-lunarcore) - Android encrypted messaging client for LunarCore firmware with onion routing experiments.
-
-### Closed Source
-
-- [Official app](https://files.liamcottle.net/MeshCore/) - Proprietary companion app, also on Google Play and the App Store.
-- [MeshOS](https://www.meshcore.co.uk/meshos) - Licensed companion app and standalone firmware from MeshCore.co.uk.
-- [KIEKR](https://kiekr.app/) - iOS and Android community toolbox app.
-- [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) - Android client focused on group operations.
-- [meshGO!](https://play.google.com/store/apps/details?id=com.meshcore.meshgo) - Android off-grid messaging client.
-- [MeshMapper](https://play.google.com/store/apps/details?id=net.meshmapper.app) - Android coverage mapping and wardriving app.
-- [Nelos](https://nelos.app/) - iOS and Android app for group messaging and GPS tracking, with offline maps.
 
 ## Libraries and SDKs
 
@@ -342,6 +364,8 @@ Tools to see what is happening on the mesh.
 
 ### RF Planning
 
+- [contempl8 Relief](https://contempl8.io/tools/relief/) - Free browser 3D terrain block viewer for inspecting the landform around a site; can be slow on large areas.
+- [contempl8 Topo](https://contempl8.io/tools/topo/) - Free browser elevation profile along a drawn line, useful for rough line-of-sight checks.
 - [MeshKit](https://meshkit.app/) - Browser site planner with terrain LOS, Fresnel analysis and BLE radio tools.
 - [MeshOMatic](https://map.meshomatic.net/) - Terrain-aware repeater placement planning and topology analysis.
 
