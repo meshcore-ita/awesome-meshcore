@@ -73,9 +73,9 @@ Everything from the official MeshCore project:
 - [MeshCore.io](https://meshcore.io/) - The official homepage.
 - [Documentation](https://docs.meshcore.io/) - Official docs.
 - [Blog](https://blog.meshcore.io/) - Official announcements and releases.
-- [MeshCore Web Flasher](https://flasher.meshcore.io/)
+- [MeshCore Web Flasher](https://flasher.meshcore.io/) - Official browser-based firmware flasher for supported devices.
 - [MeshCore Map](https://map.meshcore.io/) - Official network map.
-- [The FAQ](https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md)
+- [The FAQ](https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md) - Official answers on setup, roles and radio settings.
 - [Firmware repository](https://github.com/meshcore-dev/MeshCore) - MIT licensed firmware.
 
 ### Social Media
@@ -91,8 +91,8 @@ Everything from the official MeshCore project:
 
 ### Open Source
 
-- [MeshCore Open](https://github.com/zjs81/meshcore-open)
-- [MeshCore gui](https://github.com/pe1hvh/meshcore-gui)
+- [MeshCore Open](https://github.com/zjs81/meshcore-open) - Open-source Flutter client for mobile and desktop.
+- [MeshCore gui](https://github.com/pe1hvh/meshcore-gui) - Native desktop client over BLE, no firmware changes required.
 - [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) - Hardened Android client, no Google Play Services required.
 - [meshtrax](https://github.com/venamartin/meshtrax) - Flutter Android client with mapping and messaging.
 - [MeshCoreOne](https://github.com/Avi0n/MeshCoreOne) - Native Swift client for iOS, macOS and watchOS.
@@ -128,7 +128,7 @@ Everything from the official MeshCore project:
 
 - [Official app](https://files.liamcottle.net/MeshCore/) - Proprietary companion app, also on Google Play and the App Store.
 - [MeshOS](https://www.meshcore.co.uk/meshos) - Licensed companion app and standalone firmware from MeshCore.co.uk.
-- [KIEKR](https://kiekr.app/)
+- [KIEKR](https://kiekr.app/) - iOS and Android community toolbox app.
 - [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) - Android client focused on group operations.
 - [meshGO!](https://play.google.com/store/apps/details?id=com.meshcore.meshgo) - Android off-grid messaging client.
 - [MeshMapper](https://play.google.com/store/apps/details?id=net.meshmapper.app) - Android coverage mapping and wardriving app.
@@ -314,7 +314,7 @@ Open designs with published files (PCB, BOM, STL or detailed build guide).
 
 ## Maps and Diagnostics
 
-Tools for the every-user to see whats going on in general.
+Tools to see what is happening on the mesh.
 
 ### Maps
 
@@ -379,7 +379,7 @@ Tools for the every-user to see whats going on in general.
 
 - [MeshCore Austria](https://meshcore.at/) - German-language documentation and setup guides.
 - [CarinthiaMesh wiki](https://wiki.carinthiamesh.com/) - Carinthian regional wiki.
-- [MeshCore AT Telegram group](https://t.me/meshcoreat)
+- [MeshCore AT Telegram group](https://t.me/meshcoreat) - Austrian community chat.
 
 ### Belgium
 
@@ -389,7 +389,7 @@ Tools for the every-user to see whats going on in general.
 ### Brazil
 
 - [Mesh Sorocaba](https://www.meshsorocaba.org/) - Portuguese-language guides and community.
-- [MeshCore Brasil Telegram group](https://t.me/meshcorebrasil)
+- [MeshCore Brasil Telegram group](https://t.me/meshcorebrasil) - Brazilian community chat.
 
 ### Bulgaria
 
@@ -426,7 +426,7 @@ Tools for the every-user to see whats going on in general.
 - [HanseMesh](https://hansemesh.de/) - Northern Germany network and tutorials.
 - [IsarMesh](https://isarmesh.de/) - Bavarian community forum.
 - [MeshMitte](https://msh3.de/) - Central Germany community.
-- [MeshCore DE Telegram group](https://t.me/meshcorede)
+- [MeshCore DE Telegram group](https://t.me/meshcorede) - German community chat.
 - [MeshCore Deutschland wiki](https://meshcore-de.fyi/) - German-language wiki hub with setup guides and regional group directory.
 - [Mesh Dresden](https://meshdresden.eu/) - Dresden and wider Saxony community.
 - [Mesh Rheinland](https://www.meshrheinland.de/) - Rheinland and western Germany community.
@@ -478,7 +478,7 @@ Tools for the every-user to see whats going on in general.
 
 ### Portugal
 
-- [MeshCore Portugal](https://meshcore.pt/)
+- [MeshCore Portugal](https://meshcore.pt/) - Portuguese community site.
 
 ### Romania
 
@@ -500,7 +500,7 @@ Tools for the every-user to see whats going on in general.
 
 ### Switzerland
 
-- [MeshCore Switzerland](https://www.meshcore.ch/)
+- [MeshCore Switzerland](https://www.meshcore.ch/) - Swiss community site.
 
 ### Ukraine
 
