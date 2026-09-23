@@ -198,6 +198,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [openHop Repeater](https://github.com/openhop-dev/openhop_repeater) - Python repeater daemon for Pi-class and embedded Linux hardware.
 - [PokeMesh](https://github.com/IdreesInc/PokeMesh) - Collaborative Pokemon FireRed played through channel commands.
 - [Spectra](https://forge.hackers.town/Wrewdison/Spectra) - Rust bridge from MeshCore or Meshtastic radios to the Veilid DHT.
+- [Supply Drop BBS](https://supplydrop.meshamerica.com/) - Rust BBS for Raspberry Pi with MeshCore and Meshtastic bridges and a plugin system for other transports.
 
 ## Self-Hosted Dashboards
 
@@ -281,6 +282,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 ### Flashing and Updating
 
 - [Heltec V4.2 Multi-Boot](https://github.com/Finmacjones/HeltecV4.2MultiBoot) - Boot selector that switches between MeshCore, Meshtastic and RNode images.
+- [Mesh America Device Configurator](https://meshamerica.com/device-configurator/) - Browser flasher and configurator over Web Serial.
 - [Mesh Loader](https://github.com/eliahreeves/mesh-loader) - Dual-boot loader keeping MeshCore and Meshtastic in separate ESP32 partitions.
 - [MeshCore Drone Updater](https://github.com/lucidnx/meshcore-drone-updater) - Raspberry Pi service for drive-by or drone-assisted DFU updates of unreachable nodes.
 - [MeshCore-OTA-Flasher](https://github.com/Dreikor17/MeshCore-OTA-Flasher) - Windows tool for nRF52840 firmware updates over Bluetooth LE.
