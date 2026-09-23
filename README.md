@@ -474,6 +474,7 @@ Tools for the every-user to see whats going on in general.
 - [MeshCore Polska](https://meshcorepolska.org/) - Polish network coordination hub.
 - [MeshGo](https://meshgo.pl/) - Polish community hub.
 - [LoRa MeshCore Polska](https://lorameshcore.pl/) - Nationwide Polish off-grid network on the EU/UK narrow preset.
+- [MeshCore Podlasie](https://meshcore.podlasie.pl/) - Hobbyist network in the Podlasie region, with news, settings and a forum.
 
 ### Portugal
 
