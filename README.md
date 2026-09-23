@@ -42,10 +42,12 @@ sensor networks.
   - [Virtual](#virtual)
   - [Australia](#australia)
   - [Austria](#austria)
+  - [Belarus](#belarus)
   - [Belgium](#belgium)
   - [Brazil](#brazil)
   - [Bulgaria](#bulgaria)
   - [Canada](#canada)
+  - [Chile](#chile)
   - [Czech Republic](#czech-republic)
   - [Europe](#europe)
   - [Finland](#finland)
@@ -61,7 +63,9 @@ sensor networks.
   - [Poland](#poland)
   - [Portugal](#portugal)
   - [Romania](#romania)
+  - [Russia](#russia)
   - [Slovakia](#slovakia)
+  - [Slovenia](#slovenia)
   - [Spain](#spain)
   - [Sweden](#sweden)
   - [Switzerland](#switzerland)
@@ -342,6 +346,7 @@ Tools to see what is happening on the mesh.
 
 - [Czech coverage map](https://pokryti.meshcore.cz/) - Czech coverage with terrain-aware planning.
 - [HanseMesh map](https://hansemesh.de/netzwerk/karte/) - Northern Germany repeater status and coverage.
+- [Iceland analyzer](https://mc.flatuslifir.is/) - Live CoreScope instance for the Icelandic network.
 - [KernWi-Fi map](https://meshcore.kernwifi.com.au/map) - South Australian repeater and observer network.
 - [LocalMesh Germany map](https://localmesh.de/karte/) - German coverage with repeater directory.
 - [LocalMesh Netherlands map](https://localmesh.nl/en/map/) - Dutch network coverage.
@@ -373,6 +378,7 @@ Tools to see what is happening on the mesh.
 
 - [Andy Kirby on YouTube](https://www.youtube.com/@andykirby) - Hardware reviews, repeater builds and firmware walkthroughs.
 - [Austin Mesh setup guide](https://www.austinmesh.org/join/meshcore-setup/) - Beginner-friendly local setup.
+- [Bravo.TAKKE.me MeshCore book](https://bravo.takke.me/books/meshcore) - Traditional Chinese guide covering quick start, basic setup, firmware types and how MeshCore differs from Meshtastic.
 - [J-Rat Techworks repeater guide](https://jrattechworks.com/meshcore-repeater-flashing-guide/) - Flashing and repeater setup.
 - [Kev's Robots MeshCore course](https://www.kevsrobots.com/learn/meshcore/) - Structured tutorial series from basics to flashing.
 - [LocalMesh NL setup guide](https://www.localmesh.nl/en/meshcore-setup/) - Dutch-language beginner guide.
@@ -404,6 +410,10 @@ Tools to see what is happening on the mesh.
 - [MeshCore AT Telegram group](https://t.me/meshcoreat) - Austrian community chat.
 - [MeshCore Austria](https://meshcore.at/) - German-language documentation and setup guides.
 
+### Belarus
+
+- [MeshNetBY](https://mesh-net.by/) - Belarusian community with MeshCore setup guides and city Telegram groups; also covers Meshtastic.
+
 ### Belgium
 
 - [LoraMesh België](https://www.loramesh.be/) - Emergency communication network.
@@ -424,6 +434,10 @@ Tools to see what is happening on the mesh.
 - [MeshCore Canada](https://meshcore.ca/) - National site with provincial communities.
 - [Montreal Mesh](https://www.montrealmesh.ca/en/) - Montreal area MeshCore and Meshtastic community.
 - [Salish Mesh](https://salishmesh.net/) - Salish Sea region of southwest British Columbia.
+
+### Chile
+
+- [MeshChile](https://meshchile.cl/) - Chilean community with MeshCore guides, Discord and a [GitHub org](https://github.com/Mesh-Chile).
 
 ### Czech Republic
 
@@ -507,9 +521,18 @@ Tools to see what is happening on the mesh.
 
 - [Brașov Mesh](https://brasovmesh.com/) - Brașov network on the EU/UK narrow preset.
 
+### Russia
+
+- [MeshCore Moscow](https://meshcoretel.ru/) - Moscow network with a live telemetry map.
+- [MeshCore Moscow Telegram group](https://t.me/meshcoremoscow) - Moscow community chat.
+
 ### Slovakia
 
 - [MeshCore Slovensko](https://mesh.om3kff.sk/) - Slovak national mesh with map and Discord.
+
+### Slovenia
+
+- [MeshCore Slovenija](https://meshcore.si/) - Slovenian community with the regional preset and firmware links.
 
 ### Spain
 
