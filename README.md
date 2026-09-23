@@ -560,6 +560,8 @@ Tools to see what is happening on the mesh.
 - [MSP Mesh](https://mspmesh.org/) - Minneapolis-Saint Paul and Greater Minnesota group.
 - [Nebraska Mesh](https://www.nebraskamesh.net/) - Statewide Nebraska network.
 - [New England Mesh](https://nhmesh.com/) - New England-wide community across CT, MA, NH and ME.
+- [New York - NYC Mesh](https://nyme.sh/)
+- [New York - Long Island](https://limesh.org/)
 - [NodakMesh](https://nodakmesh.org/) - North Dakota community with wiki and guides.
 - [NTX Mesh](https://ntxmesh.com/) - Dallas-Fort Worth and greater North Texas.
 - [Pioneer Valley Mesh](https://pvmesh.org/) - Pioneer Valley of western Massachusetts.
