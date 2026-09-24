@@ -648,6 +648,7 @@ Tools to see what is happening on the mesh.
 - [New England Mesh](https://nhmesh.com/) - New England-wide community across CT, MA, NH and ME.
 - [NodakMesh](https://nodakmesh.org/) - North Dakota community with wiki and guides.
 - [NTX Mesh](https://ntxmesh.com/) - Dallas-Fort Worth and greater North Texas.
+- [PhillyMesh](https://phillymesh.net/) - Philadelphia-area network and community.
 - [Pioneer Valley Mesh](https://pvmesh.org/) - Pioneer Valley of western Massachusetts.
 - [Puget Mesh](https://pugetmesh.org/) - Puget Sound region off-grid communication networks.
 - [RDUMesh](https://rdumesh.org/) - Raleigh, Durham and Chapel Hill network.
