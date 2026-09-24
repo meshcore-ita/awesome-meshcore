@@ -252,6 +252,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [MeshCore Geo Prune](https://static.pixelentry.de/meshcore/geo-prune/) - Browser tool that cleans the contact list with a geofence.
 - [MeshCore Proxy](https://github.com/rgregg/meshcore-proxy) - TCP proxy exposing a locally connected companion radio to remote clients.
 - [MeshCore Regions catalog](https://github.com/marcelverdult/meshcore-regions) - Community-editable JSON catalog of region codes used worldwide.
+- [meshcore-tcp-mux](https://github.com/compumike/meshcore-tcp-mux) - Share one upstream MeshCore TCP companion with multiple downstream clients.
 - [MeshCore Utils](https://github.com/samschlegel/meshcore-utils) - Rust vanity Ed25519 key generator with CUDA or Metal acceleration.
 - [MeshCore Web Key Generator](https://github.com/agessaman/meshcore-web-keygen) - Browser-only Ed25519 key generator with custom public-key prefixes.
 - [MeshCore Web Keygen](https://gessaman.com/mc-keygen/) - Client-side vanity Ed25519 key generator with custom hex prefixes.
