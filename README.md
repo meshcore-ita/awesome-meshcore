@@ -152,6 +152,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 ### Terminal
 
 - [MeshChaTUI](https://github.com/g-d-j-evans/MeschaTUI) - Textual terminal client for Linux with delivery confirmation over serial or BLE.
+- [MeshTerm](https://meshterm.net/) - Cross-platform TUI client over USB, BLE or TCP with maps, traceroute and message path views.
 - [meshtui](https://github.com/ekollof/meshtui) - Textual terminal client with delivery tracking and device management.
 - [QTC](https://github.com/initsixdev/QTC) - Old-school terminal client for Linux and macOS.
 - [Remote Terminal for MeshCore](https://github.com/MichTronics/Remote-Terminal-for-MeshCore) - Remote terminal for repeaters with packet capture and MQTT.
@@ -469,6 +470,7 @@ Tools to see what is happening on the mesh.
 - [Greater Ottawa Mesh](https://ottawamesh.ca/) - Ottawa community; also covers Meshtastic.
 - [MeshCore Canada](https://meshcore.ca/) - National site with provincial communities.
 - [Montreal Mesh](https://www.montrealmesh.ca/en/) - Montreal area MeshCore and Meshtastic community.
+- [Ridgeline Mesh](https://ridgeline.ve7kod.ca/) - Southwest British Columbia network on an alternate frequency to Salish Mesh.
 - [Salish Mesh](https://salishmesh.net/) - Salish Sea region of southwest British Columbia.
 
 ### Chile
