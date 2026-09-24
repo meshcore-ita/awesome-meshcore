@@ -115,6 +115,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### Android
 
+- [MeshCore Open](https://github.com/zjs81/meshcore-open) - Open-source Flutter client with Android builds; also listed under Cross-Platform.
 - [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) - Hardened Android client, no Google Play Services required.
 - [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) 🔒 - Android client focused on group operations.
 - [Meshcore-Wardrive-Android](https://github.com/mintylinux/Meshcore-Wardrive-Android) - Flutter wardriving app for mapping coverage.
