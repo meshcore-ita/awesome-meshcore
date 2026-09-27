@@ -8,6 +8,8 @@ communication, emergency response & disaster recovery, outdoor activities,
 tactical security including law enforcement, private security and also IoT
 sensor networks.
 
+Derived from [Awesome Meshcore](https://github.com/samuk/awesome-meshcore)
+
 ## Contents
 
 - [Official Resources](#official-resources)
