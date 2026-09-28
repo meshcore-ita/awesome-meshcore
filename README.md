@@ -53,6 +53,7 @@ sensor networks.
   - [Finland](#finland)
   - [France](#france)
   - [Germany](#germany)
+  - [Greece](#greece)
   - [Hungary](#hungary)
   - [Ireland](#ireland)
   - [Italy](#italy)
@@ -278,6 +279,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [MeshCore Cardputer ADV (sosprz)](https://github.com/sosprz/meshcore-cardputer-adv) - Flashable ESP32-S3 UI images for the Cardputer ADV.
 - [MeshCore Cardputer ADV (Stachugit)](https://github.com/Stachugit/MeshCore-Cardputer-ADV) - Standalone TFT and keyboard interface for the Cardputer ADV.
 - [MeshCore Cardputer-ADV](https://github.com/MultiMote/meshcore-cardputer-adv) - Fork for the M5Stack Cardputer Adv with the Cap LoRa-1262 module.
+- [MeshCore Evo](https://github.com/mattzzw/MeshCore) - Repeater fork for high-density areas that limits high-hop flood adverts and adds a rolling-window duty cycle.
 - [MeshCore Filter Firmware](https://github.com/jhuebert/MeshCore) - Repeater fork with remotely configurable drop and forward rules, per-rule throttling and advert rate limiting.
 - [MeshCore Low-Power](https://github.com/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4) - Deep-sleep Heltec V3/V4 builds with BLE, USB and WiFi in one image.
 - [MeshCore mishmesh](https://github.com/burakcan/MeshCore-mishmesh) - On-device UI making a companion radio usable without a paired phone.
@@ -468,7 +470,7 @@ Tools to see what is happening on the mesh.
 
 ### Canada
 
-- [CascadiaMesh](https://cascadiamesh.org/) - Pacific Northwest network spanning British Columbia, Washington and Oregon.
+- [CascadiaMesh](https://cascadiamesh.org/) - Pacific Northwest network from Vancouver, BC through Washington and Oregon to Northern California, with a [Discord server](https://discord.gg/CnnDfER3Yt).
 - [Greater Ottawa Mesh](https://ottawamesh.ca/) - Ottawa community; also covers Meshtastic.
 - [MeshCore Canada](https://meshcore.ca/) - National site with provincial communities.
 - [Montreal Mesh](https://www.montrealmesh.ca/en/) - Montreal area MeshCore and Meshtastic community.
@@ -514,6 +516,10 @@ Tools to see what is happening on the mesh.
 - [MeshMitte](https://msh3.de/) - Central Germany community.
 - [Münsterland Mesh](https://mcml.info/) - Münsterland region of North Rhine-Westphalia.
 - [SaarMesh](https://saarmesh.de/) - Saarland regional network.
+
+### Greece
+
+- [MeshCore Greece Discord](https://discord.gg/6KSQBqaTmw) - Greek community server for planning and running MeshCore networks.
 
 ### Hungary
 
@@ -622,6 +628,7 @@ Tools to see what is happening on the mesh.
 
 - [Austin Mesh](https://www.austinmesh.org/) - Austin, Texas community.
 - [Bay Area MeshCore](https://bayareameshcore.org/) - San Francisco Bay Area network.
+- [Central Washington Hackers Discord](https://discord.gg/XFSA9f5kqM) - Central Washington State hacker community with MeshCore activity.
 - [Chicagoland Mesh](https://chicagolandmesh.org/) - Chicago-area MeshCore, Meshtastic and Reticulum community.
 - [Colorado MeshCore](https://meshcore.coloradomesh.org/) - Colorado community and guides.
 - [CT Mesh](https://ctmesh.org/) - Connecticut mesh technologies user group.
