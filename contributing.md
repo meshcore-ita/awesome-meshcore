@@ -11,8 +11,12 @@ Thanks for helping keep this list useful.
   section when several entries would live in it.
 - Keep entries in alphabetical order within their section (case-insensitive,
   ignoring a leading "The"). Entries described as "Official" stay at the top.
-  Official Resources, Social Media, Closed Source, Supported Devices and
-  Pre-built Devices keep their curated order.
+  Official Resources, Social Media, Supported Devices and Pre-built Devices
+  keep their curated order.
+- Mark closed-source apps with a trailing lock emoji (🔒) right after the
+  link, before the dash: `- [Name](url) 🔒 - Description.` Keep the
+  description's first word capitalized so `npx awesome-lint` does not flag
+  the line.
 - Entries must be MeshCore-related, working and maintained. Dead links and
   abandoned projects are removed.
 - Check that the entry is not already listed elsewhere in the readme; duplicate
