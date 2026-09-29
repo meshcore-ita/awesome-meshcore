@@ -40,6 +40,7 @@ sensor networks.
 - [Guides and Learning](#guides-and-learning)
 - [Communities](#communities)
   - [Virtual](#virtual)
+  - [Argentina](#argentina)
   - [Australia](#australia)
   - [Austria](#austria)
   - [Belarus](#belarus)
@@ -49,6 +50,8 @@ sensor networks.
   - [Canada](#canada)
   - [Chile](#chile)
   - [Czech Republic](#czech-republic)
+  - [Denmark](#denmark)
+  - [Estonia](#estonia)
   - [Europe](#europe)
   - [Finland](#finland)
   - [France](#france)
@@ -61,6 +64,7 @@ sensor networks.
   - [Kazakhstan](#kazakhstan)
   - [Latvia](#latvia)
   - [Lithuania](#lithuania)
+  - [Luxembourg](#luxembourg)
   - [Netherlands](#netherlands)
   - [New Zealand](#new-zealand)
   - [Norway](#norway)
@@ -68,8 +72,10 @@ sensor networks.
   - [Portugal](#portugal)
   - [Romania](#romania)
   - [Russia](#russia)
+  - [Serbia](#serbia)
   - [Slovakia](#slovakia)
   - [Slovenia](#slovenia)
+  - [South Africa](#south-africa)
   - [Spain](#spain)
   - [Sweden](#sweden)
   - [Switzerland](#switzerland)
@@ -486,6 +492,10 @@ Tools to see what is happening on the mesh.
 - [LetsMesh Forum](https://forum.letsmesh.net/) - Community forum for MeshCore and LoRa mesh.
 - [MeshCore subreddit](https://old.reddit.com/r/meshcore/) - Community discussion.
 
+### Argentina
+
+- [Mesh Argentina](https://mesharg.com.ar/) - Argentine community covering Meshtastic, MeshCore and Reticulum mesh networks.
+
 ### Australia
 
 - [EastMesh Australia](https://eastmesh.au/) - Eastern Australia community.
@@ -537,6 +547,14 @@ Tools to see what is happening on the mesh.
 ### Czech Republic
 
 - [MeshCore ČR](https://meshcore.cz/) - Czech-language community and documentation.
+
+### Denmark
+
+- [MeshCore.dk](https://meshcore.dk/) - Danish community hub with setup docs, node map and a Facebook group.
+
+### Estonia
+
+- [ESTMesh](https://wiki.estmesh.ee/en/home) - Estonian Meshtastic and MeshCore wiki with configuration docs, dashboards and a Discord server.
 
 ### Europe
 
@@ -607,6 +625,10 @@ Tools to see what is happening on the mesh.
 
 - [Atviras Tinklas](https://atvirastinklas.lt) - Lithuanian community with a CoreScope instance and Telegram group.
 
+### Luxembourg
+
+- [MeshCore Luxembourg](https://www.meshcore.lu/) - Luxembourgish community page listing the associations running MeshCore infrastructure nationwide.
+
 ### Netherlands
 
 - [Dutch MeshCore](https://dutchmeshcore.nl/) - Dutch node directory and radio preset reference.
@@ -650,6 +672,10 @@ Tools to see what is happening on the mesh.
 - [MeshCore Russian-language Telegram group](https://t.me/meshcore_rulang) - General Russian-language public for MeshCore, Meshtastic and Reticulum discussion.
 - [MeshCore Saint Petersburg](https://meshcore.spb.ru/wiki/) - City wiki with hardware, flashing and repeater guides, plus a Telegram group.
 
+### Serbia
+
+- [meshcore.rs](https://meshcore.rs/) - Serbian-language node registry and live map for the regional MeshCore network.
+
 ### Slovakia
 
 - [MeshCore Slovensko](https://mesh.om3kff.sk/) - Slovak national mesh with map and Discord.
@@ -657,6 +683,10 @@ Tools to see what is happening on the mesh.
 ### Slovenia
 
 - [MeshCore Slovenija](https://meshcore.si/) - Slovenian community with the regional preset and firmware links.
+
+### South Africa
+
+- [LoRa Mesh Comms ZA Discord](https://discord.gg/tKGFwFYvsT) - South African community coordinating Meshtastic and MeshCore repeaters, mainly around Cape Town.
 
 ### Spain
 
