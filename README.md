@@ -314,7 +314,6 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [MeshCore Cardputer ADV (sosprz)](https://github.com/sosprz/meshcore-cardputer-adv) - Flashable ESP32-S3 UI images for the Cardputer ADV.
 - [MeshCore Cardputer ADV (Stachugit)](https://github.com/Stachugit/MeshCore-Cardputer-ADV) - Standalone TFT and keyboard interface for the Cardputer ADV.
 - [MeshCore ESP Repeater Extended](https://github.com/zm0ra/meshcore-esp-repeater-extended) - Build overlay adding a WiFi TCP bridge, HTTP ops panel and MQTT reporting.
-- [MeshCore Evo](https://github.com/mattzzw/MeshCore-Evo) - Archived; repeater fork limiting high-hop flood adverts, superseded by native flood-traffic management in firmware 1.16.0.
 - [MeshCore Filter Firmware](https://github.com/jhuebert/MeshCore) - Repeater fork with remotely configurable drop and forward rules, per-rule throttling and advert rate limiting.
 - [MeshCore Low-Power](https://github.com/dt267/MeshCore-Low-Power-Firmware) - Deep-sleep Heltec V3/V4 builds with BLE, USB and WiFi in one image.
 - [MeshCore mishmesh](https://github.com/burakcan/MeshCore-mishmesh) - On-device UI making a companion radio usable without a paired phone.
