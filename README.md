@@ -342,6 +342,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [Offband Mesh](https://github.com/OffbandMesh/meshcore-firmware) - Cross-role firmware enhancements and optimisation.
 - [Saitama](https://github.com/868meshbot/Saitama) - Standalone firmware for the LilyGo T-Deck and T-Deck Plus.
 - [SigurdOS T-Deck](https://github.com/hermes-gadget/SigurdOS-tdeck) - Launcher-style touch UI for the T-Deck with maps and over-the-air updates.
+- [SolarOS](https://github.com/nilseuropa/solar_os) - ESP32 pocket-terminal OS with a MeshCore companion job over a local LoRa radio or a BLE-paired node.
 - [TapTap Firmware](https://github.com/mtoolstec/TapTapFW) - Tracker firmware with canned messages, Morse entry and audible alerts.
 - [Trail Mate](https://github.com/vicliu624/trail-mate) - Offline-first navigation handheld firmware with native MeshCore packet paths.
 - [Wadamesh](https://github.com/ALLFATHER-BV/wadamesh) - Touch-UI LVGL firmware for T-Deck and Heltec V4 TFT.
