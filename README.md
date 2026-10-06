@@ -60,6 +60,7 @@ sensor networks.
   - [Hungary](#hungary)
   - [India](#india)
   - [Ireland](#ireland)
+  - [Israel](#israel)
   - [Italy](#italy)
   - [Kazakhstan](#kazakhstan)
   - [Latvia](#latvia)
@@ -463,6 +464,7 @@ Tools to see what is happening on the mesh.
 
 ## Guides and Learning
 
+- [Andy Kirby getting started video](https://www.youtube.com/watch?v=t1qne8uJBAc) - Beginner walkthrough of setting up MeshCore off-grid text messaging.
 - [Andy Kirby on YouTube](https://www.youtube.com/@andykirby) - Hardware reviews, repeater builds and firmware walkthroughs.
 - [Austin Mesh setup guide](https://www.austinmesh.org/join/meshcore-setup/) - Beginner-friendly local setup.
 - [Bravo.TAKKE.me MeshCore book](https://bravo.takke.me/books/meshcore) - Traditional Chinese guide covering quick start, basic setup, firmware types and how MeshCore differs from Meshtastic.
@@ -470,10 +472,12 @@ Tools to see what is happening on the mesh.
 - [Habr MeshCore series (NanoVHF)](https://habr.com/ru/articles/1056050/) - Russian-language multi-part explainer comparing MeshCore's routing to Meshtastic's flood network.
 - [J-Rat Techworks repeater guide](https://jrattechworks.com/meshcore-repeater-flashing-guide/) - Flashing and repeater setup.
 - [Kev's Robots MeshCore course](https://www.kevsrobots.com/learn/meshcore/) - Structured tutorial series from basics to flashing.
+- [KiekR: Why regions?](https://kiekr.app/why-regions) - Plain-language explanation of why MeshCore needs regions, from duty-cycle limits to network scalability.
 - [LilyGo MeshCore guide (Chinese)](https://wiki.lilygo.cc/zh/open-source/meshcore/) - Chinese-language official guide covering supported devices, roles and firmware flashing.
 - [LocalMesh NL setup guide](https://www.localmesh.nl/en/meshcore-setup/) - Dutch-language beginner guide.
 - [Mesh America wiki](https://wiki.meshamerica.com/books/meshcore/page/start-here-meshcore-guide) - Guides and protocol overview.
 - [Mesh Sorocaba configuração](https://www.meshsorocaba.org/configuracao/) - Portuguese-language setup documentation.
+- [MeshCore encryption security thread](https://github.com/meshcore-dev/MeshCore/issues/259) - Long-running open issue on AES-ECB and padding weaknesses and the proposed v2 encryption migration.
 - [MeshCore Europe getting started](https://meshcoreeurope.org/en/get-started/) - Multilingual introduction.
 - [MeshCore Europe repeater guide](https://meshcoreeurope.org/en/repeater-guide/) - Repeater deployment walkthrough.
 - [MeshCore FAQ (LitBomb)](https://github.com/LitBomb/MeshCore-FAQ) - Community FAQ in English and German.
@@ -605,6 +609,10 @@ Tools to see what is happening on the mesh.
 
 - [LoRa Project Ireland](https://loraproject.ie/) - Island of Ireland off-grid messaging community.
 - [Mayo Mesh](https://mayomesh.net/#/) - County Mayo mesh radio user group.
+
+### Israel
+
+- [MeshCore Israel](https://meshcore.org.il) - Community guide for flashing devices and joining the MeshCore IL network on 917.525 MHz.
 
 ### Italy
 
