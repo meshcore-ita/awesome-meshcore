@@ -525,7 +525,7 @@ Tools to see what is happening on the mesh.
 
 - [LoraMesh België](https://www.loramesh.be/) - Emergency communication network.
 - [MeshCore België](https://meshcore.radio-actief.be/) - Community wiki and setup guides.
-- [Meshpot](https://meshpot.be) - French-language, privacy-focused guide for Brussels residents.
+- [Meshpot](https://meshpot.be) - Bilingual (French/English), privacy-focused guide for Brussels residents.
 
 ### Brazil
 
