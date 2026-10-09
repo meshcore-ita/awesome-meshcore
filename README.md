@@ -241,6 +241,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [Raven](https://github.com/kn6plv/Raven) - Bridges AREDN mesh messages to MeshCore, Meshtastic and Winlink.
 - [Reticulum Smart MeshCore Interface](https://github.com/afit21/Reticulum-Smart-MeshCore-Interface) - Runs Reticulum LXMF and NomadNet over MeshCore repeaters without flooding the mesh.
 - [RNS Gateway](https://github.com/genemichael/rns-gateway) - Runs a Reticulum transport and TCP server alongside MeshCore firmware on one Heltec V4.
+- [SpamGuard for openHop](https://github.com/flackrat/openhop-spamguard) - Channel spam filter for openHop Repeater that spots spam campaigns and blocks the repeater they enter through.
 - [Spectra](https://forge.hackers.town/Wrewdison/Spectra) - Rust bridge from MeshCore or Meshtastic radios to the Veilid DHT.
 - [Supply Drop BBS](https://supplydrop.meshamerica.com/) - Rust BBS for Raspberry Pi with MeshCore and Meshtastic bridges and a plugin system for other transports.
 
