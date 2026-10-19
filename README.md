@@ -126,14 +126,15 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### Android
 
-- [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) - Hardened Android client, no Google Play Services required.
 - [MeshCore Open](https://github.com/zjs81/meshcore-open/releases) - Android builds of the open-source Flutter client listed under Cross-Platform.
+- [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) - Hardened Android client, no Google Play Services required.
 - [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) 🔒 - Android client focused on group operations.
 - [Meshcore-Wardrive-Android](https://github.com/mintylinux/Meshcore-Wardrive-Android) - Flutter wardriving app for mapping coverage.
 - [meshGO!](https://play.google.com/store/apps/details?id=com.meshcore.meshgo) 🔒 - Android off-grid messaging client.
 - [MeshMapper](https://play.google.com/store/apps/details?id=net.meshmapper.app) 🔒 - Android coverage mapping and wardriving app.
 - [meshtrax](https://github.com/venamartin/meshtrax) - Flutter Android client with mapping and messaging.
 - [Peers](https://github.com/xAlisher/peers) - Privacy-focused Android messenger routing over Logos, MeshCore and Bluetooth mesh.
+- [Tactical Emergency Area Messaging](https://github.com/tmacinc/meshcore-team-alpha) - Android application for position tracking and messaging.
 - [Yours](https://github.com/STCisGOOD/yours-x-lunarcore) - Android encrypted messaging client for LunarCore firmware with onion routing experiments.
 
 ### iOS and Apple
@@ -143,11 +144,12 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### Desktop
 
+- [mcIRC](https://github.com/bclml/mcIRC) - IRC-style desktop client with multiple nodes, bots, addons and a firmware builder.
 - [mesh-client](https://github.com/Colorado-Mesh/mesh-client) - Electron desktop client for MeshCore, Meshtastic and Reticulum.
 - [MeshApp](https://github.com/smikme/meshapp) - Desktop client for MeshCore and Meshtastic with telemetry views.
-- [meshcore-bin (AUR)](https://aur.archlinux.org/packages/meshcore-bin) 🔒 - Arch Linux package of the official app.
 - [MeshCore gui](https://github.com/pe1hvh/meshcore-gui) - Native desktop client over BLE, no firmware changes required.
 - [MeshCore Insights](https://github.com/BomBefok/MeshcoreInsights) - Desktop dashboard with live maps, telemetry analysis and remote node management.
+- [meshcore-bin (AUR)](https://aur.archlinux.org/packages/meshcore-bin) 🔒 - Arch Linux package of the official app.
 - [MeshCoreQt](https://github.com/zhrkvl/MeshCoreQt) - Qt desktop client.
 - [meshy](https://codeberg.org/sesivany/meshy) - GTK4/libadwaita client for Linux and macOS.
 - [PyMeshCoreGUI](https://github.com/bliksemlabs/PyMeshCoreGUI) - Qt6 and Python desktop client.
@@ -155,12 +157,13 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### Web
 
-- [Official web app](https://app.meshcore.nz/) 🔒 - Browser build of the official companion app.
+- [MeshCore Companion](https://github.com/edleeman17/meshcore-companion) - Self-hosted web client with signal diagnostics, antenna placement mode and signed channel posts against name spoofing.
 - [meshcore-web (aXistem)](https://github.com/aXistem-dev/meshcore-web) - Docker-ready browser build of the companion app over BLE or USB.
 - [meshcore-web (Vue)](https://github.com/liamcottle/meshcore-web) - Early Vue web client, superseded by the official app.
 - [meshcore-webui](https://github.com/adradr/meshcore-webui) - Web UI for managing devices and chatting on the mesh.
 - [MeshCorium](https://github.com/PEG4TRON/MeshCorium) - Self-hosted client with a local web interface and hybrid contact system.
 - [Mycelium](https://github.com/WattleFoxxo/Mycelium) - Browser client for messaging over serial or BLE.
+- [Official web app](https://app.meshcore.nz/) 🔒 - Browser build of the official companion app.
 
 ### Terminal
 
@@ -251,12 +254,13 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [mc-webui](https://github.com/MarekWo/mc-webui) - Flask web client with SQLite storage and Docker deployment.
 - [Mesh Health Check](https://github.com/yellowcooln/meshcore-health-check) - Scores real-world message reachability across MQTT-connected observers.
 - [MeshCore Beacon](https://github.com/MeshCore-Beacon/beacon-server) - Go collector with PostgreSQL storage, WebSocket streaming and a React frontend.
-- [meshcore-hub](https://github.com/ipnet-mesh/meshcore-hub) - Collector, REST API and dashboard backed by PostgreSQL.
 - [MeshCore MQTT Live Map](https://github.com/yellowcooln/meshcore-mqtt-live-map) - Real-time traffic map with coverage, heat and line-of-sight views.
 - [MeshCore Wardrive Map (Docker)](https://github.com/mintylinux/meshwar-map-docker) - Self-hosted SQLite-backed wardriving coverage map with no cloud dependency.
+- [meshcore-hub](https://github.com/ipnet-mesh/meshcore-hub) - Collector, REST API and dashboard backed by PostgreSQL.
 - [MeshExplorer](https://github.com/ajvpot/meshexplorer) - Real-time map, chat client and packet analysis.
 - [MeshLog](https://github.com/Anrijs/MeshLog) - PHP/MySQL web dashboard for the companion MeshCore logger firmware.
 - [MeshMonitor](https://meshmonitor.org/) - Self-hosted multi-protocol dashboard with maps, telemetry and automation.
+- [NOCT](https://noct.systems/) 🔒 - All-in-one dashboard bringing APRS, ADS-B, MeshCore, JS8Call, packet radio, Winlink and GOES weather satellite data together.
 - [openHop Repeater UI](https://github.com/openhop-dev/openHop_RepeaterUI) - Vue 3 web dashboard for monitoring and managing an openHop Repeater.
 - [OverMesh](https://github.com/Slofi/overmesh) - Self-hosted dashboard for MeshCore and Meshtastic.
 - [PotatoMesh](https://github.com/l5yth/potato-mesh) - Federated dashboard for local communities with remote ingestors and a public API.
@@ -579,11 +583,11 @@ Tools to see what is happening on the mesh.
 
 ### Germany
 
+- [BreMesh](https://hbme.sh/) - Bremen and Bremerhaven network and tutorials.
 - [BSmesh](https://bsmesh.de/) - Greater Braunschweig network.
 - [HanseMesh](https://hansemesh.de/) - Northern Germany network and tutorials.
 - [IsarMesh](https://isarmesh.de/) - Bavarian community forum.
 - [LocalMesh Deutschland](https://www.localmesh.de/) - German emergency radio network with guides.
-- [Münsterland Mesh](https://mcml.info/) - Münsterland region of North Rhine-Westphalia.
 - [Mesh Dresden](https://meshdresden.eu/) - Dresden and wider Saxony community.
 - [Mesh Rheinland](https://www.meshrheinland.de/) - Rheinland and western Germany community.
 - [MeshCore DE Matrix room](https://matrix.to/#/#meshcore-netzwerk-de:matrix.org) - German community chat.
@@ -592,6 +596,8 @@ Tools to see what is happening on the mesh.
 - [MeshCore Dresden](https://loramesh-dresden.de/) - Dresden network.
 - [MeshCore Essen-Kettwig](https://jonathansalim.de/) - Public network around Essen-Kettwig in the Ruhr area.
 - [MeshMitte](https://msh3.de/) - Central Germany community.
+- [Münsterland Mesh](https://mcml.info/) - Münsterland region of North Rhine-Westphalia.
+- [PEmesh](https://www.pemesh.de/) - Network around Peine.
 - [SaarMesh](https://saarmesh.de/) - Saarland regional network.
 
 ### Greece
@@ -735,6 +741,7 @@ Tools to see what is happening on the mesh.
 - [Colorado MeshCore](https://meshcore.coloradomesh.org/) - Colorado community and guides.
 - [CT Mesh](https://ctmesh.org/) - Connecticut mesh technologies user group.
 - [Eastern US MeshCore](https://eastme.sh/) - Eastern states network.
+- [Emerald Coast Mesh](https://ecmesh.us/) - Mesh community along the Emerald Coast in the Florida panhandle.
 - [Florida Mesh](https://areyoumeshingwith.us/) - Florida-wide network run by amateur radio operators.
 - [Florida MeshCore](https://mc.flmesh.us/) - Statewide community network for Florida.
 - [Greater Boston Mesh](https://bostonme.sh/) - Boston-area community behind the Boston MeshCore MQTT dashboard.
