@@ -157,6 +157,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### Web
 
+- [MeshConsole](https://github.com/m9wav/MeshConsole) - Web interface and CLI for MeshCore and Meshtastic devices.
 - [MeshCore Companion](https://github.com/edleeman17/meshcore-companion) - Self-hosted web client with signal diagnostics, antenna placement mode and signed channel posts against name spoofing.
 - [meshcore-web (aXistem)](https://github.com/aXistem-dev/meshcore-web) - Docker-ready browser build of the companion app over BLE or USB.
 - [meshcore-web (Vue)](https://github.com/liamcottle/meshcore-web) - Early Vue web client, superseded by the official app.
@@ -168,6 +169,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 ### Terminal
 
 - [MeshChaTUI](https://github.com/g-d-j-evans/MeschaTUI) - Textual terminal client for Linux with delivery confirmation over serial or BLE.
+- [meshssi](https://github.com/dmellok/meshssi) - irssi-style terminal client with chat, packet monitor, map and repeater administration.
 - [MeshTerm](https://meshterm.net/) - Cross-platform TUI client over USB, BLE or TCP with maps, traceroute and message path views.
 - [meshtui](https://github.com/ekollof/meshtui) - Textual terminal client with delivery tracking and device management.
 - [QTC](https://github.com/initsixdev/QTC) - Old-school terminal client for Linux and macOS.
@@ -203,7 +205,6 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ## Integrations and Bots
 
-- [meshcore-ha](https://github.com/meshcore-dev/meshcore-ha) - Official Home Assistant integration, installable via HACS.
 - [Akita Meshtastic Meshcore Bridge](https://github.com/AkitaEngineering/Akita-Meshtastic-Meshcore-Bridge) - Bidirectional bridge between Meshtastic and MeshCore over serial or MQTT.
 - [Akita Zmodem MeshCore](https://github.com/AkitaEngineering/Akita-Zmodem-MeshCore) - Lightweight ZMODEM-style file transfer protocol over the MeshCore companion client.
 - [BinktermPHP](https://github.com/awehttam/binkterm-php) - Full BBS with web and telnet access, FidoNet and a MeshCore gateway.
@@ -216,23 +217,25 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [MeshBBS](https://github.com/atomozero/MeshBBS) - Bulletin board system with public boards and private messages over MeshCore.
 - [MeshCore ATAK Plugin](https://github.com/atakmaps/TAK-MESHCORE) - ATAK plugin for the MeshCore BLE companion transport.
 - [MeshCore BBS](https://github.com/carsten-walther/MeshCore-BBS) - Store-and-forward bulletin board running on a companion radio.
+- [MeshCore Chat for Home Assistant](https://github.com/mwolter805/meshcore-ha-chat) - Sidebar chat panel and persistent message store built on meshcore-ha.
+- [MeshCore Discord Bridge](https://github.com/Hude06/MeshCoreDiscordBridge) - Bidirectional Discord bridge with multi-channel routing and flood protection.
+- [MeshCore Email Gateway](https://github.com/MGJ520/MeshCore-Email-Gateway) - Bidirectional SMTP/IMAP gateway with a management API.
+- [MeshCore ESP-NOW Filtered Bridge](https://github.com/Department-of-Mesh-Regional-Bridging/meshcore-esp-now-filtered-bridge) - MeshCore to ESP-NOW bridge with configurable packet filtering.
+- [MeshCore Home Assistant Panel v2](https://github.com/d3sbo/MeshCore-Home-Assistant-Panel-v2) - Dashboard with interactive maps, heatmaps and playback recording for the mesh.
+- [MeshCore SAME EAS Alerter](https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter) - Forwards SAME emergency alert broadcasts onto the mesh.
+- [MeshCore UI for Home Assistant](https://github.com/Ratty7198/MeshCore-HA-UI) - Sidebar dashboard on top of meshcore-ha with chat, contacts and maps.
+- [MeshCore WeatherBot](https://github.com/recrof/MeshCore-WeatherBot) - Node.js weather forecast and lightning alert bot for mesh channels.
+- [meshcore-bbs](https://github.com/shermozle/meshcore-bbs) - BBS accessible via direct messages.
 - [MeshCore-BitChat](https://github.com/jooray/MeshCore-BitChat) - Experimental fork branch bridging Bitchat and MeshCore mesh messages.
 - [meshcore-bot](https://github.com/agessaman/meshcore-bot) - Python bot with Discord and Telegram bridging plus web viewer.
 - [meshcore-bot (Go)](https://github.com/meshcore-go/meshcore-bot) - Lightweight bot in Go.
 - [meshcore-card](https://github.com/jpettitt/meshcore-card) - Home Assistant Lovelace cards for hub, node, contact and channel statistics.
-- [MeshCore Chat for Home Assistant](https://github.com/mwolter805/meshcore-ha-chat) - Sidebar chat panel and persistent message store built on meshcore-ha.
-- [MeshCore Discord Bridge](https://github.com/Hude06/MeshCoreDiscordBridge) - Bidirectional Discord bridge with multi-channel routing and flood protection.
 - [meshcore-discord-relay](https://github.com/yellowcooln/meshcore-discord-relay) - Relays MQTT traffic into Discord channels.
-- [MeshCore Email Gateway](https://github.com/MGJ520/MeshCore-Email-Gateway) - Bidirectional SMTP/IMAP gateway with a management API.
-- [MeshCore ESP-NOW Filtered Bridge](https://github.com/Department-of-Mesh-Regional-Bridging/meshcore-esp-now-filtered-bridge) - MeshCore to ESP-NOW bridge with configurable packet filtering.
-- [MeshCore Home Assistant Panel v2](https://github.com/d3sbo/MeshCore-Home-Assistant-Panel-v2) - Dashboard with interactive maps, heatmaps and playback recording for the mesh.
+- [meshcore-ha](https://github.com/meshcore-dev/meshcore-ha) - Official Home Assistant integration, installable via HACS.
 - [meshcore-mcp](https://github.com/dpup/meshcore-mcp) - Model Context Protocol server exposing a node to AI agents.
 - [meshcore-mqtt](https://github.com/ipnet-mesh/meshcore-mqtt) - MQTT bridge over serial, BLE or TCP with TLS support.
 - [meshcore-mqtt-broker (michaelhart)](https://github.com/michaelhart/meshcore-mqtt-broker) - WebSocket MQTT broker authenticating clients with MeshCore public keys.
 - [Meshcore-Repeater-MQTT-Gateway](https://github.com/jmead/Meshcore-Repeater-MQTT-Gateway) - Gateway firmware bridging repeaters to MQTT.
-- [MeshCore SAME EAS Alerter](https://github.com/Mambo430/MeshCore-SAME-EAS-Alerter) - Forwards SAME emergency alert broadcasts onto the mesh.
-- [MeshCore UI for Home Assistant](https://github.com/Ratty7198/MeshCore-HA-UI) - Sidebar dashboard on top of meshcore-ha with chat, contacts and maps.
-- [MeshCore WeatherBot](https://github.com/recrof/MeshCore-WeatherBot) - Node.js weather forecast and lightning alert bot for mesh channels.
 - [meshcoretomqtt](https://github.com/Cisien/meshcoretomqtt) - Publishes debug and packet capture output to MQTT.
 - [Meshpoint](https://github.com/KMX415/meshpoint) - Raspberry Pi base station using an SX1302/SX1303 LoRa concentrator.
 - [MeshRes](https://github.com/bryantkelley/MeshRes) - Streams mesh messages into the Resonite social VR platform.
@@ -321,20 +324,21 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [Meck](https://github.com/pelgraine/Meck) - BLE and WiFi companion fork for T-Deck Pro, T-Deck Max and T5 E-Paper S3 Pro.
 - [Meck-P4](https://github.com/pelgraine/Meck-P4) - Port of Meck to the ESP32-P4 based LilyGo T-Display P4.
 - [Meshcomod](https://github.com/ALLFATHER-BV/meshcomod) - Companion fork exposing USB, Bluetooth and TCP connectivity simultaneously.
-- [MeshCore Cardputer-ADV](https://github.com/MultiMote/meshcore-cardputer-adv) - Fork for the M5Stack Cardputer Adv with the Cap LoRa-1262 module.
 - [MeshCore Cardputer ADV (sosprz)](https://github.com/sosprz/meshcore-cardputer-adv) - Flashable ESP32-S3 UI images for the Cardputer ADV.
 - [MeshCore Cardputer ADV (Stachugit)](https://github.com/Stachugit/MeshCore-Cardputer-ADV) - Standalone TFT and keyboard interface for the Cardputer ADV.
+- [MeshCore Cardputer-ADV](https://github.com/MultiMote/meshcore-cardputer-adv) - Fork for the M5Stack Cardputer Adv with the Cap LoRa-1262 module.
 - [MeshCore ESP Repeater Extended](https://github.com/zm0ra/meshcore-esp-repeater-extended) - Build overlay adding a WiFi TCP bridge, HTTP ops panel and MQTT reporting.
 - [MeshCore Filter Firmware](https://github.com/jhuebert/MeshCore) - Repeater fork with remotely configurable drop and forward rules, per-rule throttling and advert rate limiting.
 - [MeshCore Low-Power](https://github.com/dt267/MeshCore-Low-Power-Firmware) - Deep-sleep Heltec V3/V4 builds with BLE, USB and WiFi in one image.
 - [MeshCore mishmesh](https://github.com/burakcan/MeshCore-mishmesh) - On-device UI making a companion radio usable without a paired phone.
 - [MeshCore MQTT Bridge (agessaman fork)](https://github.com/agessaman/MeshCore/tree/mqtt-bridge-implementation) - Onboard WiFi, NTP and JWT-authenticated MQTT packet-logging firmware, no Raspberry Pi required.
 - [MeshCore PaperUI](https://github.com/dz0ny/meshcore-paperui) - E-paper handheld firmware with standalone messaging, GPS and maps.
-- [MeshCore-Solo](https://github.com/MarekZegare4/MeshCore-Solo) - Companion firmware fork adding offline GPS navigation and GPX export.
 - [MeshCore SPECTER for DX-LR30](https://github.com/MaliosDark/meshcore-specter-dx-lr30) - Native C++ flood repeater firmware for the cheap STM32F103 + SX1262 DX-LR30 board.
 - [MeshCore T-Beam 1W](https://github.com/mintylinux/Meshcore-T-beam-1W-Firmware) - Prebuilt builds for the LilyGo T-Beam 1 Watt.
 - [MeshCore TEAM enhanced firmware](https://github.com/tmacinc/MeshCore) - Autonomous tracker fork adding team GPS tracking and smart forwarding control.
 - [MeshCore Wio Tracker L1 Pro (sosprz)](https://github.com/sosprz/Meshcore-Wio-Tracker-L1-Pro) - On-device companion UI for the Seeed Wio Tracker L1 Pro.
+- [MeshCore-Evo](https://github.com/mattzzw/MeshCore-Evo) - Repeater-only fork for more robust networks. Archived since July 2026.
+- [MeshCore-Solo](https://github.com/MarekZegare4/MeshCore-Solo) - Companion firmware fork adding offline GPS navigation and GPX export.
 - [MeshcoreGRID](https://github.com/Quark1980/MeshcoreGRID) - Touch-first handheld firmware with a standalone GRID interface.
 - [MeshCoreNG](https://github.com/MichTronics/MeshCoreNG) - Dutch fork focused on smarter repeaters for larger, busier meshes.
 - [MeshCoreRPI](https://github.com/dabeani/MeshCoreRPI) - Fork building and running MeshCore natively on a Raspberry Pi with a Waveshare LoRa HAT.
@@ -446,12 +450,15 @@ Tools to see what is happening on the mesh.
 - [Boston MeshCore MQTT dashboard](https://mcmqttdashboard.bostonme.sh/) - Live MQTT node presence and traffic metrics.
 - [EU Meshcore Analyzer](https://meshcore-analyzer.eu/) - Live visual map of European MeshCore LoRa network traffic.
 - [KernWi-Fi live telemetry](https://meshcore.kernwifi.com.au/live) - South Australian live activity feed.
+- [MeshCore Analyzer (CZ)](https://analyzer.meshcore.cz/) - Czech instance with live packet visualisation, node tracking and route analysis.
 - [MeshCore Analyzer (letsmesh)](https://analyzer.letsmesh.net/) - Node connectivity, packet analysis and mesh health metrics.
 - [MeshCore Observers](https://meshcore.observer) - Directory of public collectors, reporters and analyzers.
 - [MeshCore Tools](https://meshcore.envoyage.io/) - Repeater configurator and region code lookup helpers.
 - [MeshCore Wall of Shame](https://advertrank.com/) - Tongue-in-cheek ranking of the nodes flooding the mesh with adverts.
+- [MeshcoreNetz.de](https://analyzer.meshcorenetz.de/) - German overview of open-channel messages with observer and hop counts.
 - [Meshcoretel.io](https://meshcoretel.io/) - Public telemetry with a live packet map, propagation trees, link load and wardrive coverage.
 - [MeshRank](https://meshrank.net/) - Leaderboard and analytics for repeaters and routes, mainly in the UK.
+- [MeshStat](https://meshstat.com/) - Live packet visualisation, node tracking, channel decryption and route analysis.
 - [TennMesh Live](https://live.tennmesh.com/) - Tennessee telemetry with RF link analysis and routing loop detection.
 
 ### RF Planning
@@ -487,12 +494,15 @@ Tools to see what is happening on the mesh.
 - [MeshCore Europe repeater guide](https://meshcoreeurope.org/en/repeater-guide/) - Repeater deployment walkthrough.
 - [MeshCore FAQ (LitBomb)](https://github.com/LitBomb/MeshCore-FAQ) - Community FAQ in English and German.
 - [MeshCore Ninja](https://meshcore.ninja/) - Open catalog of regional networks, devices, firmwares and software.
+- [MeshCore Observer MQTT bridge docs](https://observer.gessaman.com/docs) - Setting up repeaters to uplink packet data to multiple MQTT brokers.
 - [MeshCore OTA guide](https://github.com/Mraanderson/meshcore-ota) - Step-by-step OTA firmware updates for repeaters and room servers.
 - [MeshCore QuickStart (The Comms Channel)](https://www.youtube.com/playlist?list=PLshzThxhw4O4WU_iZo3NmNZOv6KMrUuF9) - Nine-part video series walking through initial MeshCore setup.
 - [MeshCore region info](https://github.com/luckystriike22/meshcore_region_info) - Reference explaining MeshCore region codes and how they are used.
+- [MeshMapper Wiki](https://wiki.meshmapper.net/) - Getting started, FAQ and app overview for the MeshMapper wardriving app.
 - [NodakMesh wiki](https://nodakmesh.org/meshcore/wiki) - Reference documentation and setup guides.
 - [ScotMesh getting started](https://wiki.scotmesh.uk/en/MeshCore/getting-started) - Beginner guide from unboxing to the first message.
 - [Seeed Studio ESP32 MeshCore guide (Chinese)](https://wiki.seeedstudio.com/cn/get_started_with_esp32s3_meshcore/) - Chinese-language guide for flashing and configuring the XIAO ESP32S3 repeater.
+- [The MeshCore Map](https://blog.meshcore.io/2026/04/04/meshcore-map) - Official blog post on how the node map works.
 - [WISSEN TECHNIK podcast](https://wissen-technik-meshcore-meshtastic.podigee.io/) - German-language podcast on MeshCore and Meshtastic.
 
 ## Communities
