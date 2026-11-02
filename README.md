@@ -315,6 +315,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 - [CubeCell MeshCore](https://github.com/atomozero/CubeCellMeshCore) - Minimal repeater firmware for Heltec CubeCell boards.
 - [EastMesh](https://github.com/xJARiD/MeshCore-EastMesh) - MQTT repeater and WiFi companion builds with prebuilt releases.
 - [EasySkyMesh](https://github.com/IoTThinks/EasySkyMesh) - Power-saving fork for ultra-low-power repeater and sensor deployments.
+- [Faro](https://github.com/radek-sixi/sixi-tdeck-plus) - On-device LVGL UI for MeshCore companion firmware on the LilyGo T-Deck and T-Deck Plus; BLE and WiFi companion clients keep working.
 - [Fennek](https://github.com/danst0/fennek) - T-Deck Pro firmware adding music, audiobooks and eBooks alongside mesh chat.
 - [FieldMesh](https://github.com/TogeriX-hub/FieldMesh) - Fork optimised for festivals, hiking and off-grid events.
 - [InkCore](https://codeberg.org/todd-herbert/InkCore) - BLE companion firmware for small e-paper devices with configurable applets.
