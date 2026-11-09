@@ -500,6 +500,7 @@ Tools to see what is happening on the mesh.
 - [MeshCore OTA guide](https://github.com/Mraanderson/meshcore-ota) - Step-by-step OTA firmware updates for repeaters and room servers.
 - [MeshCore QuickStart (The Comms Channel)](https://www.youtube.com/playlist?list=PLshzThxhw4O4WU_iZo3NmNZOv6KMrUuF9) - Nine-part video series walking through initial MeshCore setup.
 - [MeshCore region info](https://github.com/luckystriike22/meshcore_region_info) - Reference explaining MeshCore region codes and how they are used.
+- [meshers.net](https://meshers.net/) - Beginner guides, a worldwide band and device guide, and a local groups directory.
 - [MeshMapper Wiki](https://wiki.meshmapper.net/) - Getting started, FAQ and app overview for the MeshMapper wardriving app.
 - [NodakMesh wiki](https://nodakmesh.org/meshcore/wiki) - Reference documentation and setup guides.
 - [ScotMesh getting started](https://wiki.scotmesh.uk/en/MeshCore/getting-started) - Beginner guide from unboxing to the first message.
