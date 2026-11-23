@@ -489,6 +489,7 @@ Tools to see what is happening on the mesh.
 - [KiekR: Why regions?](https://kiekr.app/why-regions) - Plain-language explanation of why MeshCore needs regions, from duty-cycle limits to network scalability.
 - [LilyGo MeshCore guide (Chinese)](https://wiki.lilygo.cc/zh/open-source/meshcore/) - Chinese-language official guide covering supported devices, roles and firmware flashing.
 - [LocalMesh NL setup guide](https://www.localmesh.nl/en/meshcore-setup/) - Dutch-language beginner guide.
+- [LoRa Mesh Atlas](https://lorameshatlas.com/) - Independent MeshCore and Meshtastic comparison guides with source-linked device references.
 - [Mesh America wiki](https://wiki.meshamerica.com/books/meshcore/page/start-here-meshcore-guide) - Guides and protocol overview.
 - [Mesh Sorocaba configuração](https://www.meshsorocaba.org/configuracao/) - Portuguese-language setup documentation.
 - [MeshCore encryption security thread](https://github.com/meshcore-dev/MeshCore/issues/259) - Long-running open issue on AES-ECB and padding weaknesses and the proposed v2 encryption migration.
