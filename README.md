@@ -126,6 +126,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 ### Android
 
+- [meshchōsei](https://github.com/meshchosei/meshchosei) - Open-source Android configurator for MeshCore and ZephCore LoRa repeaters via USB OTG and BLE-OTA remote admin, with ZephCore packet filters, JSON backups and offline maps.
 - [MeshCore Open](https://github.com/zjs81/meshcore-open/releases) - Android builds of the open-source Flutter client listed under Cross-Platform.
 - [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) - Hardened Android client, no Google Play Services required.
 - [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) 🔒 - Android client focused on group operations.
